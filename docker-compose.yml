@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  sample-cron:
+    container_name: sample
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./bash:/sample/bash
+      - ./main.py:/sample/main.py
+    env_file:
+      - .env
+    restart: on-failure
