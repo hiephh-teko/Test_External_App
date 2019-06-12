@@ -9,6 +9,12 @@ services:
     volumes:
       - ./bash:/sample/bash
       - ./main.py:/sample/main.py
+      - .:/sample
     env_file:
       - .env
     restart: on-failure
+
+networks: 
+  default: 
+    external: 
+      name: tracking_default 
