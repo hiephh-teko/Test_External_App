@@ -1,0 +1,20 @@
+//site_tracking table
+
+INSERT INTO `tracking`.`site_tracking_description` (`app_id`, `name`, `main_url`, `ts_created`, `ecommerce`, `sitesearch`, `timezone`, `currency`, `exclude_unknown_urls`, `type_client`, `keep_url_fragment`) VALUES ('ABCDE12345', 'Teko Piwik', 'http://piwik.teko.vn', '2017-12-25T07:36:26', '0', '1', 'UTC+7', 'USD', '0', 'website', '0');
+INSERT INTO `tracking`.`site_tracking_description` (`app_id`, `name`, `main_url`, `ts_created`, `ecommerce`, `sitesearch`, `timezone`, `currency`, `exclude_unknown_urls`, `type_client`, `keep_url_fragment`) VALUES ('ABCDE54321', 'Redash4', 'http://bi2.teko.vn', '2017-12-25T08:34:07', '0', '1', 'UTC+7', 'VND', '0', 'website', '1');
+INSERT INTO `tracking`.`site_tracking_description` (`app_id`, `name`, `main_url`, `ts_created`, `ecommerce`, `sitesearch`, `timezone`, `currency`, `exclude_unknown_urls`, `type_client`, `keep_url_fragment`) VALUES ('ABCDE56789', 'Sale Tool', 'http://api.teko.vn', '2017-12-25T08:37:11', '0', '1', 'UTC+7', 'VND', '0', 'website', '0');
+INSERT INTO `tracking`.`site_tracking_description` (`app_id`, `name`, `main_url`, `ts_created`, `ecommerce`, `sitesearch`, `timezone`, `currency`, `exclude_unknown_urls`, `type_client`, `keep_url_fragment`) VALUES ('ABCDE98765', 'phongvu.vn', 'https://phongvu.vn', '2018-01-28T00:00:00', '1', '1', 'UTC+7', 'VND', '0', 'website', '0');
+INSERT INTO `tracking`.`site_tracking_description` (`app_id`, `name`, `main_url`, `ts_created`, `ecommerce`, `sitesearch`, `timezone`, `currency`, `exclude_unknown_urls`, `type_client`, `keep_url_fragment`) VALUES ('56789ABCDE', 'bi.teko.vn', 'https://bi.teko.vn', '2018-01-30T00:00:00', '1', '1', 'UTC+7', 'VND', '0', 'website', '0');
+
+
+
+-----------------------------------------------------------------------------------
+// goal table
+
+INSERT INTO `tracking`.`goal` (`id`, `name`, `name`, `description`, `match_attribute`, `pattern`, `pattern`, `pattern_type`, `case_sensitive`, `allow_multiple`, `revenue`, `app_id`, `deleted`) VALUES ('1', 'Tracking', 'Tracking', 'Các hành động của người dùng', 'event_name', 'focusForm', 'focusForm', 'contains', ', ', '', 'ABCDE12ABCDE1234545', '0'
+INSERT INTO `tracking`.`goal` (`id`, `name`, `name`, `description`, `match_attribute`, `pattern`, `pattern_type`, `case_sensitive`, `allow_multiple`, `revenue`, `app_id`, `deleted`) VALUES ('3', 'Checkout', 'Checkout', 'User go to Checkout Page', 'u', '/checkout/onpage', 'contains', ', ', '', 'ABCDE54321', '0');
+INSERT INTO `tracking`.`goal` (`id`, `name`, `name`, `description`, `match_attribute`, `pattern`, `pattern`, `pattern_type`, `case_sensitive`, `allow_multiple`, `revenue`, `app_id`, `deleted`) VALUES ('2', 'Transactio',inputValue', '*không còn hàng*ction', 'User make a successful transaction', 'inputValue', '*không còn hàng*', 'regex', '0', '1', '0', 'ABCDE56789', '0');
+
+
+
+https://tryolabs.com/blog/2015/02/17/python-elasticsearch-first-steps/

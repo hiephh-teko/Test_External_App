@@ -48,7 +48,6 @@ class ElasticsearchConnect(object):
         res = self.es.indices.delete(index=index_name.lower())
         print("delete index:",res)
 
-
     def create_index(self, index_name):
         res = self.es.indices.create(index=index_name.lower())
         print("create index:",res)
@@ -69,7 +68,7 @@ class ElasticsearchConnect(object):
             
             # Query Elasticsearch
             res2 = self.es.search(index='tracking-chat-tool-v2-*',body=body)
-            self.create_index(element_data.app_id)
+            # self.create_index(element_data.app_id)
             # print("query", res2['hits']['total'])
             
 
