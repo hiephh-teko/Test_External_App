@@ -7,8 +7,6 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./bash:/sample/bash
-      - ./main.py:/sample/main.py
       - .:/sample
     env_file:
       - .env
