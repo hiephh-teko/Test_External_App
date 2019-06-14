@@ -9,6 +9,7 @@ class Goal(Base):
     __tablename__ = 'goal'
 
     id =  Column(BigInteger, primary_key=True)
+    name = Column(String(50))
     description =  Column( String)
     match_attribute =  Column( String(100) )
     pattern =  Column( String(100))
@@ -17,7 +18,7 @@ class Goal(Base):
     allow_multiple =   Column( Boolean)
     revenue =   Column( Boolean)
     conversion =   Column( Boolean)
-    client_id =  Column( BigInteger )
+    app_id =  Column( String(50) )
     goal_type =  Column( String(100) )
     goal_pattern =  Column( String(100))
     deleted =  Column( Boolean)

@@ -27,24 +27,13 @@ def query():
     # Res = ResultPoroxy.fetchall()
     # print(Res)
     
-    columns = [Goal.match_attribute, Goal.pattern, Goal.pattern_type]
-    result = session.query(Goal).with_entities(*columns).all()
-    
+    # columns = [Goal.match_attribute, Goal.pattern, Goal.pattern_type]
+    # result = session.query(Goal).with_entities(*columns).all()
+    result = session.query(Goal).all()
+
     ElasticsearchConnect(result).open_connect()
     # for c, i in session.query(goal_table, site_tracking_description_table).filter(goal_table.client_id == site_tracking_description_table.client_id).all:
     
 
 # if __name__ == '__main__':
 query()
-
-# print(goals.columns.keys())
-# print(repr(metadata.tables['goals']))
-
-
-# sql = text('SELECT 1')
-
-# result = engine.execute(sql)
-
-# data = [row[0] for row in result]
-
-# print(data)

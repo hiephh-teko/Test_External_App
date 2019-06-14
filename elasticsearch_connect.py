@@ -4,11 +4,13 @@ from elasticsearch import Elasticsearch
 
 class ElasticsearchConnect(object):
 
+    es = Elasticsearch([{'host': '103.126.156.112', 'port': 9200}])
+
+
     def __init__(self, data): 
         self.data = data
 
-    def query_contain_type(self, es, field, value):
-        print(field,value)
+    def query_contain_type_body(self, field, value):
         body = {
             "size": 0, 
             "query":{
@@ -21,12 +23,9 @@ class ElasticsearchConnect(object):
                 }
             }      
         }
-        res2 = es.search(index='tracking-chat-tool-v2-*',body=body)
-        # print(res2)
-        print(res2['hits']['total'])
+        return body 
     
-    def query_regex_type(self, es, field, value):
-        print(field,value)
+    def query_regex_type_body(self, field, value):
         body = {
             "size": 0, 
             "query": {
@@ -43,24 +42,35 @@ class ElasticsearchConnect(object):
                 }
             }   
         }
-        print(body)
-        res2 = es.search(index='tracking-chat-tool-v2-*',body=body)
-        # print(res2)
-        # print(res2['hits']['total'])
+        return body
+
+    def delete_index(self, index_name):
+        res = self.es.indices.delete(index=index_name.lower())
+        print("delete index:",res)
+
+
+    def create_index(self, index_name):
+        res = self.es.indices.create(index=index_name.lower())
+        print("create index:",res)
 
     def open_connect(self):
-        es = Elasticsearch([{'host': '103.126.156.112', 'port': 9200}])
 
         for element_data in self.data:
 
+            # get needed field, value  for query
             field = str(f"event.{str(element_data.match_attribute)}")
             value = str(element_data.pattern)
 
+            # get body query with CONTAINS & REGEX type
             if str(element_data.pattern_type) == "contains":
-                self.query_contain_type(es,field,value)
+                body = self.query_contain_type_body(field,value)
             elif str(element_data.pattern_type) == "regex":
-                # print(field,value)
-                self.query_regex_type(es,type,field)
+                body = self.query_regex_type_body(field,value)
+            
+            # Query Elasticsearch
+            res2 = self.es.search(index='tracking-chat-tool-v2-*',body=body)
+            self.create_index(element_data.app_id)
+            # print("query", res2['hits']['total'])
             
 
             
