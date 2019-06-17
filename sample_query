@@ -11,10 +11,10 @@ INSERT INTO `tracking`.`site_tracking_description` (`app_id`, `name`, `main_url`
 -----------------------------------------------------------------------------------
 // goal table
 
-INSERT INTO `tracking`.`goal` (`id`, `name`, `name`, `description`, `match_attribute`, `pattern`, `pattern`, `pattern_type`, `case_sensitive`, `allow_multiple`, `revenue`, `app_id`, `deleted`) VALUES ('1', 'Tracking', 'Tracking', 'Các hành động của người dùng', 'event_name', 'focusForm', 'focusForm', 'contains', ', ', '', 'ABCDE12ABCDE1234545', '0'
-INSERT INTO `tracking`.`goal` (`id`, `name`, `name`, `description`, `match_attribute`, `pattern`, `pattern_type`, `case_sensitive`, `allow_multiple`, `revenue`, `app_id`, `deleted`) VALUES ('3', 'Checkout', 'Checkout', 'User go to Checkout Page', 'u', '/checkout/onpage', 'contains', ', ', '', 'ABCDE54321', '0');
-INSERT INTO `tracking`.`goal` (`id`, `name`, `name`, `description`, `match_attribute`, `pattern`, `pattern`, `pattern_type`, `case_sensitive`, `allow_multiple`, `revenue`, `app_id`, `deleted`) VALUES ('2', 'Transactio',inputValue', '*không còn hàng*ction', 'User make a successful transaction', 'inputValue', '*không còn hàng*', 'regex', '0', '1', '0', 'ABCDE56789', '0');
+INSERT INTO `tracking`.`goal` (`id`, `name`, `description`, `match_attribute`, `pattern`, `pattern_type`, `case_sensitive`, `allow_multiple`, `revenue`, `app_id`, `goal_type`, `goal_pattern`,`deleted`) VALUES ('1', 'Tracking', 'Các hành động của người dùng', 'eventName', 'focusForm', 'contains', '0 ', '0', '1', 'ABCDE12345', '' , '', '0');
+INSERT INTO `tracking`.`goal` (`id`, `name`, `description`, `match_attribute`, `pattern`, `pattern_type`, `case_sensitive`, `allow_multiple`, `revenue`, `app_id`, `goal_type`, `goal_pattern`,`deleted`) VALUES ('2', 'Transaction', 'User make a successful transaction','inputValue', '.*không còn hàng.*', 'regex', '0', '1', '0', 'ABCDE56789', '' , '', '0');
 
+//INSERT INTO `tracking`.`goal` (`id`, `name`, `description`, `match_attribute`, `pattern`, `pattern_type`, `case_sensitive`, `allow_multiple`, `revenue`, `app_id`, `goal_type`, `goal_pattern`, `delet d`) VALUES ('3', 'Checkout', 'User go to Checkout Page', 'url', '/checkout/onpage', 'contains', '0', '0', '0' 'ABCDE54321', '' , '', '0');
 
 
 https://tryolabs.com/blog/2015/02/17/python-elasticsearch-first-steps/
