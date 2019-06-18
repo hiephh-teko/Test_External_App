@@ -64,37 +64,37 @@ class ElasticsearchConnect(object):
         res = self.es.delete(index=index_name.lower())
         print("delete index:",res)
 
-    # def create_index(self, index_name):
-    #     print("into create index function")
-    #     request_body = {
-    #         "settings" : {
-    #             "number_of_shards": 3,
-    #             "number_of_replicas": 1
-    #         },
-    #         "mappings": {
-    #             "goal": {
-    #                 "properties": {
-    #                     "id": { "type": "long" },
-    #                     "name": { "type": "keyword" },
-    #                     "description": { "type": "text" },
-    #                     "match_attribute": { "type": "keyword" },
-    #                     "pattern": { "type": "keyword" },
-    #                     "pattern_type": { "type": "keyword" },
-    #                     "case_sensitive": { "type": "boolean" },
-    #                     "allow_multiple": { "type": "boolean" },
-    #                     "revenue": { "type": "boolean" },
-    #                     "conversion": { "type": "boolean" },
-    #                     "app_id": { "type": "keyword" },
-    #                     "goal_type": { "type": "keyword" },
-    #                     "goal_pattern": { "type": "keyword" },
-    #                     "deleted": { "type": "boolean" },
-    #                     "time": { "type": "date" },
-    #                     "value" : {"type" : "long"}
-    #                 }
-    #             }
-    #         }
-    #     }
-    #     res = self.es.index(index=index_name.lower(),body=request_body)
+    def create_index(self, index_name):
+        print("into create index function")
+        request_body = {
+            "settings" : {
+                "number_of_shards": 3,
+                "number_of_replicas": 1
+            },
+            "mappings": {
+                "goal": {
+                    "properties": {
+                        "id": { "type": "long" },
+                        "name": { "type": "keyword" },
+                        "description": { "type": "text" },
+                        "match_attribute": { "type": "keyword" },
+                        "pattern": { "type": "keyword" },
+                        "pattern_type": { "type": "keyword" },
+                        "case_sensitive": { "type": "boolean" },
+                        "allow_multiple": { "type": "boolean" },
+                        "revenue": { "type": "boolean" },
+                        "conversion": { "type": "boolean" },
+                        "app_id": { "type": "keyword" },
+                        "goal_type": { "type": "keyword" },
+                        "goal_pattern": { "type": "keyword" },
+                        "deleted": { "type": "boolean" },
+                        "time": { "type": "date" },
+                        "value" : {"type" : "long"}
+                    }
+                }
+            }
+        }
+        res = self.es.index(index=index_name.lower(),body=request_body)
     #     print("create index:",res)
 
     def open_connect(self):
@@ -115,7 +115,7 @@ class ElasticsearchConnect(object):
             res2 = self.es.search(index="tracking-chat-tool-v2-*",body=body)
             print("query", res2["hits"]["total"])
 
-            # self.create_index(element_data.app_id)
+            #ádfkjklasdfhjklfhasdkljfasdhklsdfjahjklsdfh self.create_index(element_data.app_id)
             index_body={
                 "id": element_data.id,
                 "name": element_data.name,
@@ -136,7 +136,7 @@ class ElasticsearchConnect(object):
             }
             
             res3 = self.es.index(index="<goal-{now/d}>",body=index_body)
-            print("add new document": res3)
+            print("add new document:", res3)
             # self.delete_index(element_data.app_id)
             
 

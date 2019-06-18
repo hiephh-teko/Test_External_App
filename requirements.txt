@@ -5,3 +5,4 @@ python-dotenv~=0.10.1
 elasticsearch
 Flask
 requests
+pytest==3.6.2
