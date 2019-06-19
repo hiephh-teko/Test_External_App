@@ -1,6 +1,6 @@
 # coding=utf-8
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, BigInteger, String, Boolean
+from sqlalchemy import Column, BigInteger, String, Integer
 
 Base = declarative_base()
 
@@ -14,11 +14,11 @@ class Goal(Base):
     match_attribute =  Column( String(100) )
     pattern =  Column( String(100))
     pattern_type =   Column( String(50) )
-    case_sensitive  =   Column( Boolean)
-    allow_multiple =   Column( Boolean)
-    revenue =   Column( Boolean)
-    conversion =   Column( Boolean)
+    case_sensitive  =   Column( Integer)
+    allow_multiple =   Column( Integer)
+    revenue =   Column( Integer)
+    conversion =   Column( Integer)
     app_id =  Column( String(50) )
     goal_type =  Column( String(100) )
     goal_pattern =  Column( String(100))
-    deleted =  Column( Boolean)
+    deleted =  Column( Integer)

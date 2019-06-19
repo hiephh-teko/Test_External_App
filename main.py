@@ -31,7 +31,7 @@ def query():
     # result = session.query(Goal).with_entities(*columns).all()
     result = session.query(Goal).all()
 
-    ElasticsearchConnect(result).open_connect()
+    ElasticsearchConnect(result).enter_query()
     # for c, i in session.query(goal_table, site_tracking_description_table).filter(goal_table.client_id == site_tracking_description_table.client_id).all:
     
 

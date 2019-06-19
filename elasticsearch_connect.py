@@ -1,18 +1,24 @@
 import json
 import requests
-import datetime
+from datetime import datetime, timedelta
+import pytz
 from elasticsearch import Elasticsearch
 
 class ElasticsearchConnect(object):
 
     es = Elasticsearch([{'host': '103.126.156.112', 'port': 9200}])
+    hours_query = 10000
+    scroll_size = 10000
+    scroll_time = '2m'
+    from_time = (datetime.now() - timedelta(hours = hours_query)).strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3]
+    end_time = (datetime.now()).strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] 
+    # print(from_time, end_time)
 
     def __init__(self, data): 
         self.data = data
 
-    def query_contain_type_body(self, field, value):
+    def query_contain_type_body(self, field, value, from_time, end_time):
         body = {
-            "size": 0,
             "query": {
                 "bool": {
                     "must": {
@@ -25,8 +31,8 @@ class ElasticsearchConnect(object):
                     "filter": {
                         "range": {
                             "clientTime": {
-                                "gte": "now-1d",
-                                "lt": "now"
+                                "gte": from_time ,
+                                "lt": end_time
                             }
                         }
                     }
@@ -35,10 +41,9 @@ class ElasticsearchConnect(object):
         }
         return body 
     
-    def query_regex_type_body(self, field, value):
+    def query_regex_type_body(self, field, value, from_time, end_time):
         body = {
-            "size": 0, 
-            "query": {
+            "query": { 
                 "bool": {
                     "must": {
                         "regexp": {
@@ -50,8 +55,8 @@ class ElasticsearchConnect(object):
                     "filter": {
                         "range": {
                             "clientTime": {
-                                "gte": "now-1d",
-                                "lt": "now"
+                                "gte": from_time,
+                                "lt": end_time
                             }
                         }
                     }
@@ -60,63 +65,31 @@ class ElasticsearchConnect(object):
         }
         return body
 
-    def delete_index(self, index_name):
-        res = self.es.delete(index=index_name.lower())
-        print("delete index:",res)
+    def get_hits_from_site_query(self, pattern_type, field, value):
 
-    def create_index(self, index_name):
-        print("into create index function")
-        request_body = {
-            "settings" : {
-                "number_of_shards": 3,
-                "number_of_replicas": 1
-            },
-            "mappings": {
-                "goal": {
-                    "properties": {
-                        "id": { "type": "long" },
-                        "name": { "type": "keyword" },
-                        "description": { "type": "text" },
-                        "match_attribute": { "type": "keyword" },
-                        "pattern": { "type": "keyword" },
-                        "pattern_type": { "type": "keyword" },
-                        "case_sensitive": { "type": "boolean" },
-                        "allow_multiple": { "type": "boolean" },
-                        "revenue": { "type": "boolean" },
-                        "conversion": { "type": "boolean" },
-                        "app_id": { "type": "keyword" },
-                        "goal_type": { "type": "keyword" },
-                        "goal_pattern": { "type": "keyword" },
-                        "deleted": { "type": "boolean" },
-                        "time": { "type": "date" },
-                        "value" : {"type" : "long"}
-                    }
-                }
-            }
-        }
-        res = self.es.index(index=index_name.lower(),body=request_body)
-    #     print("create index:",res)
+        if str(pattern_type) == "contains": 
+            body = self.query_contain_type_body(field, value, self.from_time, self.end_time)
 
-    def open_connect(self):
+        elif str(pattern_type) == "regex":
+            body = self.query_regex_type_body(field,value, self.from_time, self.end_time)
 
-        for element_data in self.data:
+        # Query Elasticsearch
+        result_query = self.es.search(
+                                        index="tracking-chat-tool-v2-*",
+                                        scroll=self.scroll_time,
+                                        size=self.scroll_size,
+                                        body=body
+                                    )
 
-            # get needed field, value  for query
-            field = str(f"event.{str(element_data.match_attribute)}")
-            value = str(element_data.pattern)
+        return result_query
+    
 
-            # get body query with CONTAINS & REGEX type
-            if str(element_data.pattern_type) == "contains": 
-                body = self.query_contain_type_body(field,value)
-            elif str(element_data.pattern_type) == "regex":
-                body = self.query_regex_type_body(field,value)
-            
-            # Query Elasticsearch
-            res2 = self.es.search(index="tracking-chat-tool-v2-*",body=body)
-            print("query", res2["hits"]["total"])
-
-            #ádfkjklasdfhjklfhasdkljfasdhklsdfjahjklsdfh self.create_index(element_data.app_id)
-            index_body={
+    def get_matching_goal_log_index_body(self, hit, element_data):
+        return {
+            'event_log':
+                hit
+            ,
+            'goal' : {
                 "id": element_data.id,
                 "name": element_data.name,
                 "description": element_data.description,
@@ -127,18 +100,54 @@ class ElasticsearchConnect(object):
                 "allow_multiple": element_data.allow_multiple,
                 "revenue": element_data.revenue,
                 "conversion": element_data.conversion,
-                "app_id": element_data.app_id,
                 "goal_type": element_data.goal_type,
                 "goal_pattern": element_data.goal_pattern,
                 "deleted": element_data.deleted,
-                "time": datetime.datetime.now(),
-                "value": res2["hits"]["total"]
+                "start_time": self.from_time,
+                "end_time": self.end_time
             }
-            
-            res3 = self.es.index(index="<goal-{now/d}>",body=index_body)
-            print("add new document:", res3)
-            # self.delete_index(element_data.app_id)
-            
+        }
 
+    def process_hits(self, hits, element_data):
+        print(len(hits))
+        for hit in hits:
+                    
+            index_body = self.get_matching_goal_log_index_body(hit, element_data)
+
+            result_add_new_doc = self.es.index(index="<goal-{now/d}>",body=index_body)
+            # print("add new document:", result_add_new_doc)
+
+    def enter_query(self):
+
+        total_hits = 0
+
+        for element_data in self.data:
+
+            # get needed field, value  for query
+            field = str(f"event.{str(element_data.match_attribute)}")
+            value = str(element_data.pattern)
             
-        
+            # get result of scroll by search
+            data = self.get_hits_from_site_query(element_data.pattern_type, field, value)
+            
+            # Get the scroll ID
+            sid = data['_scroll_id']
+            scroll_size = len(data['hits']['hits'])
+
+            # Before scroll next, process current batch of hits
+            self.process_hits(data['hits']['hits'], element_data)
+
+            while (scroll_size > 0):
+                data = self.es.scroll(scroll_id=sid,scroll=self.scroll_time)
+
+                # process current batch of hits
+                self.process_hits(data['hits']['hits'], element_data)
+
+                #update the scroll id
+                sid = data['_scroll_id']
+
+                #update scroll_size
+                scroll_size = len(data['hits']['hits'])
+
+     
+            
