@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 from sqlalchemy import create_engine, text
 import sqlalchemy as db
 from sqlalchemy.orm import sessionmaker
-from goal import Goal
-from elasticsearch_connect import ElasticsearchConnect
+from external.models.goal import Goal
+from external.query.url_matching_query import UrlMatchingGoalQuery
 
 _DOT_ENV_PATH = os.path.join(os.path.dirname(__file__), '.env')
 load_dotenv(_DOT_ENV_PATH)
@@ -22,18 +22,9 @@ Session = sessionmaker(bind = engine)
 session = Session()
     
 def query():
-    # query = db.select([goal_table])
-    # ResultPoroxy = connection.execute(query)
-    # Res = ResultPoroxy.fetchall()
-    # print(Res)
-    
-    # columns = [Goal.match_attribute, Goal.pattern, Goal.pattern_type]
-    # result = session.query(Goal).with_entities(*columns).all()
     result = session.query(Goal).all()
 
-    ElasticsearchConnect(result).enter_query()
-    # for c, i in session.query(goal_table, site_tracking_description_table).filter(goal_table.client_id == site_tracking_description_table.client_id).all:
+    UrlMatchingGoalQuery(result).enter_query()
     
 
-# if __name__ == '__main__':
 query()

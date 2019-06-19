@@ -4,10 +4,10 @@ from datetime import datetime, timedelta
 import pytz
 from elasticsearch import Elasticsearch
 
-class ElasticsearchConnect(object):
+class UrlMatchingGoalQuery(object):
 
     es = Elasticsearch([{'host': '103.126.156.112', 'port': 9200}])
-    hours_query = 10000
+    hours_query = 10
     scroll_size = 10000
     scroll_time = '2m'
     from_time = (datetime.now() - timedelta(hours = hours_query)).strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3]
@@ -114,12 +114,10 @@ class ElasticsearchConnect(object):
                     
             index_body = self.get_matching_goal_log_index_body(hit, element_data)
 
-            result_add_new_doc = self.es.index(index="<goal-{now/d}>",body=index_body)
+            result_add_new_doc = self.es.index(index="<test-goal-{now/d}>",body=index_body)
             # print("add new document:", result_add_new_doc)
 
     def enter_query(self):
-
-        total_hits = 0
 
         for element_data in self.data:
 
@@ -148,6 +146,3 @@ class ElasticsearchConnect(object):
 
                 #update scroll_size
                 scroll_size = len(data['hits']['hits'])
-
-     
-            
