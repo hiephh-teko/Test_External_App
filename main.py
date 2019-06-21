@@ -1,30 +1,22 @@
 # coding=utf-8
+from datetime import datetime, timedelta
 import os
 from dotenv import load_dotenv
-from sqlalchemy import create_engine, text
-import sqlalchemy as db
-from sqlalchemy.orm import sessionmaker
-from external.models.goal import Goal
 from external.query.url_matching_query import UrlMatchingGoalQuery
+from external.database_init import DatabaseInit
 
 _DOT_ENV_PATH = os.path.join(os.path.dirname(__file__), '.env')
 load_dotenv(_DOT_ENV_PATH)
 
-engine = create_engine(os.getenv('DATABASE_URI'))
 
-connection = engine.connect()
-metadata = db.MetaData()
-goal_table = db.Table('goal', metadata, autoload=True, autoload_with=engine)
-# site_tracking_description_table = db.Table('site_tracking_description', metadata, autoload=True, autoload_with=engine)
-
-#create session
-Session = sessionmaker(bind = engine)
-session = Session()
-    
 def query():
-    result = session.query(Goal).all()
-
-    UrlMatchingGoalQuery(result).enter_query()
     
+    hours_query = os.getenv('ELASTICSEARCH_HOURS_QUERY')
+    from_time = (datetime.now() - timedelta(hours = int(hours_query))).strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3]
+    end_time = (datetime.now()).strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] 
+    result = DatabaseInit().get_data()
 
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+    
+# if __name__ == 'main':
 query()

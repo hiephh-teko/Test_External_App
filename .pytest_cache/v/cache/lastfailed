@@ -1,0 +1,9 @@
+{
+  "tests/functional/test_url_matching.py": true,
+  "tests/unit/test_query_url_matching.py": true,
+  "tests/unit/test_query_url_matching.py::TestQueryUrlMatching::()::test_query_contains_matching_correctly[event.eventName-focusForm-2019-06-05T00:00:00.000-2019-06-05T23:59:59.000-12]": true,
+  "tests/unit/test_query_url_matching.py::TestQueryUrlMatching::()::test_query_contains_matching_correctly[event.eventName-focusForm-2019-06-20T00:00:00.000-2019-06-20T23:59:59.000-7]": true,
+  "tests/unit/test_query_url_matching.py::TestQueryUrlMatching::()::test_query_contains_matching_correctly[eventName-focusForm-2019-06-05T00:00:00.000-2019-06-20T23:59:59.000-12]": true,
+  "tests/unit/test_query_url_matching.py::TestQueryUrlMatching::()::test_query_contains_matching_correctly[eventName-focusForm-2019-06-20T00:00:00.000-2019-06-20T23:59:59.000-7]": true,
+  "tests/unit/test_query_url_matching.py::TestQueryUrlMatching::()::test_query_contains_matching_correctly[inputValue-.*kh\\xf4ng c\\xf2n h\\xe0ng.*-2019-06-05T00:00:00.000-2019-06-20T23:59:59.000-12]": true
+}
