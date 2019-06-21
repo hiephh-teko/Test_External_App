@@ -13,7 +13,7 @@ RUN chmod 0644 /etc/cron.d/scan
 
 RUN crontab /etc/cron.d/scan
 
-RUN chmod a+x /sample/bash/*
+RUN chmod 777 -R /sample/bash/
 
 RUN find /sample/bash -type d -exec chmod 755 {} \;
 
