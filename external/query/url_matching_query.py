@@ -1,4 +1,5 @@
 from elasticsearch import Elasticsearch
+import logging
 import pytz
 import requests
 import json
@@ -112,10 +113,7 @@ class UrlMatchingGoalQuery(object):
             }
         }
 
-    def process_hits(self, hits, element_data):
-        print("process_hits:", len(hits))
-        # count = 0
-        # print("hits1", hits[0])
+    def process_hits(self, hits, element_data):  
         for hit in hits:
             # get index body
             index_body = self.get_matching_goal_log_index_body(
@@ -127,7 +125,6 @@ class UrlMatchingGoalQuery(object):
     def enter_query(self):
 
         for element_data in self.data:
-            print("app_id: %s - idGoal: %s" %(element_data.app_id,element_data.id))
             # get needed field, value  for query
             field = str(f"event.{str(element_data.match_attribute)}")
             value = str(element_data.pattern)

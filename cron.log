@@ -4622,3 +4622,134 @@ process_hits: 2
 process_hits: 0
 app_id: ABCDE56789 - idGoal: 2
 process_hits: 0
+######################################
+ from_time 2019-06-24T03:39:00.915 - end_time: 2019-06-24T03:40:00.915
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 2
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:40:00.890 - end_time: 2019-06-24T03:41:00.890
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 3
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:41:00.933 - end_time: 2019-06-24T03:42:00.933
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:42:00.902 - end_time: 2019-06-24T03:43:00.902
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 2
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:43:00.924 - end_time: 2019-06-24T03:44:00.924
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 3
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:44:01.042 - end_time: 2019-06-24T03:45:01.042
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 1
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:45:01.026 - end_time: 2019-06-24T03:46:01.026
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 4
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:46:00.956 - end_time: 2019-06-24T03:47:00.956
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 14
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:47:00.936 - end_time: 2019-06-24T03:48:00.936
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 4
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:48:00.954 - end_time: 2019-06-24T03:49:00.954
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 1
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:49:00.913 - end_time: 2019-06-24T03:50:00.913
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:50:00.961 - end_time: 2019-06-24T03:51:00.961
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 2
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:51:00.897 - end_time: 2019-06-24T03:52:00.897
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 2
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:52:00.938 - end_time: 2019-06-24T03:53:00.938
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 5
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:53:00.901 - end_time: 2019-06-24T03:54:00.901
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:54:00.958 - end_time: 2019-06-24T03:55:00.958
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 4
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:55:00.999 - end_time: 2019-06-24T03:56:00.999
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 2
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-24T03:56:00.959 - end_time: 2019-06-24T03:57:00.959
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 1
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+  File "main.py", line 16
+    logging.("######################################")
+            ^
+SyntaxError: invalid syntax
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
