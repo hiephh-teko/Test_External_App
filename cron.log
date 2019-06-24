@@ -1,0 +1,968 @@
+/bin/ash: /sample/bash/test_cli.sh: Permission denied
+/bin/ash: /sample/bash/test_cli.sh: Permission denied
+/bin/ash: /sample/bash/test_cli.sh: Permission denied
+/bin/ash: /sample/bash/test_cli.sh: Permission denied
+/bin/ash: /sample/bash/test_cli.sh: Permission denied
+/bin/ash: /sample/bash/test_cli.sh: Permission denied
+/bin/ash: sudo: not found
+/bin/ash: sudo: not found
+/bin/ash: sudo: not found
+/bin/ash: /sample/bash/test_cli.sh: Permission denied
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+1
+enter_query
+1m
+process_hits: 664
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+1
+enter_query
+1m
+process_hits: 699
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+1
+enter_query
+1m
+process_hits: 707
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+1
+enter_query
+1m
+process_hits: 717
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+1
+enter_query
+1m
+process_hits: 725
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+enter_query
+1m
+process_hits: 14
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+enter_query
+1m
+process_hits: 7
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+enter_query
+1m
+process_hits: 7
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+enter_query
+1m
+process_hits: 14
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+enter_query
+1m
+process_hits: 9
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+enter_query
+1m
+process_hits: 6
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+enter_query
+1m
+process_hits: 14
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+enter_query
+1m
+process_hits: 10
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+enter_query
+1m
+process_hits: 17
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+enter_query
+1m
+process_hits: 16
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+enter_query
+1m
+process_hits: 13
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+enter_query
+1m
+process_hits: 12
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T09:47:00.522 2019-06-21T09:48:00.522
+enter_query
+1m
+process_hits: 18
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T09:48:00.472 2019-06-21T09:49:00.472
+enter_query
+1m
+process_hits: 17
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T09:49:00.420 2019-06-21T09:50:00.420
+enter_query
+1m
+process_hits: 11
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T09:50:00.632 2019-06-21T09:51:00.632
+enter_query
+1m
+process_hits: 5
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T09:51:00.450 2019-06-21T09:52:00.450
+enter_query
+1m
+process_hits: 3
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T09:52:00.578 2019-06-21T09:53:00.578
+enter_query
+1m
+process_hits: 11
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T09:53:00.507 2019-06-21T09:54:00.507
+enter_query
+1m
+process_hits: 17
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T09:54:00.459 2019-06-21T09:55:00.459
+enter_query
+1m
+process_hits: 7
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'etF1eWsBE0U105S5pHE5', '_score': 2.70577, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T09:54:40.000Z', 'offset': 20089500, 'schemaName': 'web.focusForm', 'stm': 1561110880, '@timestamp': '2019-06-21T09:54:40.234Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '113.176.61.129', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '113.176.61.129', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561100708, 'id': '0bb53571-70bf-4a69-a1a4-46b7353967da', 'lastActiveAt': 1561110880, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1745x852', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1745x852'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T09:54:39', 'visitor': {'userId': '', 'clientId': '2c51926fe79f6882455848cbfb4ee1ae', 'trackingId': '1ca15434-f512-4120-a2e7-488d96edee98'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': 'Bạn vui lòng chờ mình kiểm tra thông tin ạ.', 'nodeName': 'INPUT', 'createdAt': 1561110880, 'id': '6bff6138-ff57-4776-9de5-8d34fdfdb990', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T09:54:40.000Z', 'sessionLastActiveAt': '2019-06-21T09:54:40.000Z', 'appVer': '1.0.0'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 149, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 117, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T09:55:00.460 2019-06-21T09:56:00.460
+enter_query
+1m
+process_hits: 9
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'gtF1eWsBE0U105S5-nKT', '_score': 2.7085264, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T09:55:02.000Z', 'offset': 20186051, 'schemaName': 'web.focusForm', 'stm': 1561110902, '@timestamp': '2019-06-21T09:55:02.335Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '113.176.61.129', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '113.176.61.129', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561100708, 'id': '0bb53571-70bf-4a69-a1a4-46b7353967da', 'lastActiveAt': 1561110902, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1745x852', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1745x852'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T09:55:01', 'visitor': {'userId': '', 'clientId': '2c51926fe79f6882455848cbfb4ee1ae', 'trackingId': '1ca15434-f512-4120-a2e7-488d96edee98'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561110902, 'id': '8ec64dd2-5d3d-40cd-be58-2b00f152763f', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T09:55:02.000Z', 'sessionLastActiveAt': '2019-06-21T09:55:02.000Z', 'appVer': '1.0.0'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 149, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 117, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T09:56:00.508 2019-06-21T09:57:00.508
+enter_query
+1m
+process_hits: 13
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'c9F2eWsBE0U105S57HXg', '_score': 2.7094154, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T09:56:05.000Z', 'offset': 20450385, 'schemaName': 'web.focusForm', 'stm': 1561110965, '@timestamp': '2019-06-21T09:56:04.371Z', 'browser': {'build': '', 'device': 'Other', 'minor': '17763', 'major': '18', 'os': 'Windows', 'os_name': 'Windows', 'name': 'Edge'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561079302, 'id': '8361f1a7-1a51-4492-81e1-cbfa52a69a4c', 'lastActiveAt': 1561110965, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1829x921', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1829x1029', 'charset': 'utf-8', 'ds': '1829x921'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763', 'serverTime': '2019-06-21T09:56:04', 'visitor': {'userId': '', 'clientId': '8b061a92ac3eb47875d77c33f6a2a4da', 'trackingId': '313b1f22-6448-4409-893a-2616bdfd1a96'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '1602199                ', 'nodeName': 'INPUT', 'createdAt': 1561110965, 'id': '27954e57-ce7c-4f50-a0ce-770d69204fb3', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'search', 'href': 'https://chat-v2.teko.vn/stocks', 'elementId': 'search', 'elementClasses': ['form-control-sm', 'form-control'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T09:56:05.000Z', 'sessionLastActiveAt': '2019-06-21T09:56:05.000Z', 'appVer': '1.0.0'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 149, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 117, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T09:57:00.464 2019-06-21T09:58:00.464
+enter_query
+1m
+process_hits: 7
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': '5NF3eWsBE0U105S5_nhj', '_score': 2.7124627, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T09:57:13.000Z', 'offset': 20766506, 'schemaName': 'web.focusForm', 'stm': 1561111033, '@timestamp': '2019-06-21T09:57:15.388Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '80', 'os': 'Windows', 'os_name': 'Windows', 'patch': '180', 'name': 'Coc Coc'}, 'client': '113.161.85.136', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '113.161.85.136', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 1, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561077806, 'id': '794e8b5d-41bd-4273-871c-ae3928922cba', 'lastActiveAt': 1561111033, 'title': 'Teko Communication Tool', 'language': 'vi-VN', 'tz': 'Asia/Saigon', 'vp': '1872x935', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1872x935'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/80.0.180 Chrome/74.0.3729.180 Safari/537.36', 'serverTime': '2019-06-21T09:57:15', 'visitor': {'userId': '', 'clientId': '813f308668d0c6bc505af2b8f4c5af0a', 'trackingId': '1c4c1032-83a7-418e-b209-325051b04564'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '1810468', 'nodeName': 'INPUT', 'createdAt': 1561111033, 'id': '14ecfa32-3e85-41e8-bd7a-2fbe8250978d', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'search', 'href': 'https://chat-v2.teko.vn/stocks', 'elementId': 'search', 'elementClasses': ['form-control-sm', 'form-control'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T09:57:13.000Z', 'sessionLastActiveAt': '2019-06-21T09:57:13.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': '5NF3eWsBE0U105S5_nhj', '_score': 2.7124627, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T09:57:13.000Z', 'offset': 20766506, 'schemaName': 'web.focusForm', 'stm': 1561111033, '@timestamp': '2019-06-21T09:57:15.388Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '80', 'os': 'Windows', 'os_name': 'Windows', 'patch': '180', 'name': 'Coc Coc'}, 'client': '113.161.85.136', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '113.161.85.136', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 1, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561077806, 'id': '794e8b5d-41bd-4273-871c-ae3928922cba', 'lastActiveAt': 1561111033, 'title': 'Teko Communication Tool', 'language': 'vi-VN', 'tz': 'Asia/Saigon', 'vp': '1872x935', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1872x935'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/80.0.180 Chrome/74.0.3729.180 Safari/537.36', 'serverTime': '2019-06-21T09:57:15', 'visitor': {'userId': '', 'clientId': '813f308668d0c6bc505af2b8f4c5af0a', 'trackingId': '1c4c1032-83a7-418e-b209-325051b04564'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '1810468', 'nodeName': 'INPUT', 'createdAt': 1561111033, 'id': '14ecfa32-3e85-41e8-bd7a-2fbe8250978d', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'search', 'href': 'https://chat-v2.teko.vn/stocks', 'elementId': 'search', 'elementClasses': ['form-control-sm', 'form-control'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T09:57:13.000Z', 'sessionLastActiveAt': '2019-06-21T09:57:13.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T09:57:00.464', 'end_time': '2019-06-21T09:58:00.464'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 152, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 117, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T09:58:00.477 2019-06-21T09:59:00.477
+enter_query
+1m
+process_hits: 5
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'UtF5eWsBE0U105S5JHy_', '_score': 2.7117333, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T09:58:25.000Z', 'offset': 6835, 'schemaName': 'web.focusForm', 'stm': 1561111105, '@timestamp': '2019-06-21T09:58:30.740Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561081544, 'id': 'f21f8205-ea07-4084-bc81-37ad594c0fc4', 'lastActiveAt': 1561111105, 'title': 'Teko Communication Tool', 'language': 'vi-VN', 'tz': 'Asia/Saigon', 'vp': '1745x836', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1745x836'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T09:58:24', 'visitor': {'userId': '', 'clientId': '95aafa54f90307e534d6efec6218b9f4', 'trackingId': 'a95dca7b-5849-4a83-bb9d-b45e73af8568'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561111105, 'id': '8b5f9994-dbfc-4827-bd07-304c4a6cb9eb', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T09:58:25.000Z', 'sessionLastActiveAt': '2019-06-21T09:58:25.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'UtF5eWsBE0U105S5JHy_', '_score': 2.7117333, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T09:58:25.000Z', 'offset': 6835, 'schemaName': 'web.focusForm', 'stm': 1561111105, '@timestamp': '2019-06-21T09:58:30.740Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561081544, 'id': 'f21f8205-ea07-4084-bc81-37ad594c0fc4', 'lastActiveAt': 1561111105, 'title': 'Teko Communication Tool', 'language': 'vi-VN', 'tz': 'Asia/Saigon', 'vp': '1745x836', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1745x836'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T09:58:24', 'visitor': {'userId': '', 'clientId': '95aafa54f90307e534d6efec6218b9f4', 'trackingId': 'a95dca7b-5849-4a83-bb9d-b45e73af8568'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561111105, 'id': '8b5f9994-dbfc-4827-bd07-304c4a6cb9eb', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T09:58:25.000Z', 'sessionLastActiveAt': '2019-06-21T09:58:25.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T09:58:00.477', 'end_time': '2019-06-21T09:59:00.477'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T09:59:00.548 2019-06-21T10:00:00.548
+enter_query
+1m
+process_hits: 2
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'StF6eWsBE0U105S5eH-b', '_score': 2.7125583, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T09:59:50.000Z', 'offset': 45614, 'schemaName': 'web.focusForm', 'stm': 1561111190, '@timestamp': '2019-06-21T09:59:56.743Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561109288, 'id': '7e0e19e2-486f-4f79-a65c-dc455d73a2a5', 'lastActiveAt': 1561111190, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1654x953', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1654x953'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T09:59:50', 'visitor': {'userId': '', 'clientId': '5a0999bb8807ad6977424a8a88683464', 'trackingId': '508692df-48a8-4803-a1ae-a5a8854b4d48'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561111190, 'id': '317d5cf2-f943-44bc-a628-3b4e936ceb28', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T09:59:50.000Z', 'sessionLastActiveAt': '2019-06-21T09:59:50.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'StF6eWsBE0U105S5eH-b', '_score': 2.7125583, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T09:59:50.000Z', 'offset': 45614, 'schemaName': 'web.focusForm', 'stm': 1561111190, '@timestamp': '2019-06-21T09:59:56.743Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561109288, 'id': '7e0e19e2-486f-4f79-a65c-dc455d73a2a5', 'lastActiveAt': 1561111190, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1654x953', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1654x953'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T09:59:50', 'visitor': {'userId': '', 'clientId': '5a0999bb8807ad6977424a8a88683464', 'trackingId': '508692df-48a8-4803-a1ae-a5a8854b4d48'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561111190, 'id': '317d5cf2-f943-44bc-a628-3b4e936ceb28', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T09:59:50.000Z', 'sessionLastActiveAt': '2019-06-21T09:59:50.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T09:59:00.548', 'end_time': '2019-06-21T10:00:00.548'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:00:00.488 2019-06-21T10:01:00.488
+enter_query
+1m
+process_hits: 3
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'HdF7eWsBE0U105S5OIEF', '_score': 2.712055, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:00:40.000Z', 'offset': 42845, 'schemaName': 'web.focusForm', 'stm': 1561111240, '@timestamp': '2019-06-21T10:00:45.751Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561081544, 'id': 'f21f8205-ea07-4084-bc81-37ad594c0fc4', 'lastActiveAt': 1561111240, 'title': 'Teko Communication Tool', 'language': 'vi-VN', 'tz': 'Asia/Saigon', 'vp': '1745x836', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1745x836'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:00:40', 'visitor': {'userId': '', 'clientId': '95aafa54f90307e534d6efec6218b9f4', 'trackingId': 'a95dca7b-5849-4a83-bb9d-b45e73af8568'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '19040039', 'nodeName': 'INPUT', 'createdAt': 1561111240, 'id': 'c6910318-96ec-4481-ae15-2e088a2a0cb0', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'search', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'search', 'elementClasses': ['form-control-sm', 'form-control'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:00:40.000Z', 'sessionLastActiveAt': '2019-06-21T10:00:40.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'HdF7eWsBE0U105S5OIEF', '_score': 2.712055, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:00:40.000Z', 'offset': 42845, 'schemaName': 'web.focusForm', 'stm': 1561111240, '@timestamp': '2019-06-21T10:00:45.751Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561081544, 'id': 'f21f8205-ea07-4084-bc81-37ad594c0fc4', 'lastActiveAt': 1561111240, 'title': 'Teko Communication Tool', 'language': 'vi-VN', 'tz': 'Asia/Saigon', 'vp': '1745x836', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1745x836'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:00:40', 'visitor': {'userId': '', 'clientId': '95aafa54f90307e534d6efec6218b9f4', 'trackingId': 'a95dca7b-5849-4a83-bb9d-b45e73af8568'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '19040039', 'nodeName': 'INPUT', 'createdAt': 1561111240, 'id': 'c6910318-96ec-4481-ae15-2e088a2a0cb0', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'search', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'search', 'elementClasses': ['form-control-sm', 'form-control'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:00:40.000Z', 'sessionLastActiveAt': '2019-06-21T10:00:40.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:00:00.488', 'end_time': '2019-06-21T10:01:00.488'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:01:00.465 2019-06-21T10:02:00.465
+enter_query
+1m
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 148, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:02:00.455 2019-06-21T10:03:00.455
+enter_query
+1m
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 148, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:03:00.441 2019-06-21T10:04:00.441
+enter_query
+1m
+process_hits: 1
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': '-dF9eWsBE0U105S5XoXQ', '_score': 2.6761963, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:03:07.000Z', 'offset': 101403, 'schemaName': 'web.focusForm', 'stm': 1561111387, '@timestamp': '2019-06-21T10:03:07.752Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '113.176.61.129', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '113.176.61.129', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561100708, 'id': '0bb53571-70bf-4a69-a1a4-46b7353967da', 'lastActiveAt': 1561111387, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1745x852', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1745x852'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:03:07', 'visitor': {'userId': '', 'clientId': '2c51926fe79f6882455848cbfb4ee1ae', 'trackingId': '1ca15434-f512-4120-a2e7-488d96edee98'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': 'Dạ chào bạn, CSKH hỗ trợ được gì cho bạn ạ?', 'nodeName': 'INPUT', 'createdAt': 1561111387, 'id': '05c461cd-ab8d-43f5-bcd5-1347dfa7af11', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:03:07.000Z', 'sessionLastActiveAt': '2019-06-21T10:03:07.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': '-dF9eWsBE0U105S5XoXQ', '_score': 2.6761963, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:03:07.000Z', 'offset': 101403, 'schemaName': 'web.focusForm', 'stm': 1561111387, '@timestamp': '2019-06-21T10:03:07.752Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '113.176.61.129', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '113.176.61.129', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561100708, 'id': '0bb53571-70bf-4a69-a1a4-46b7353967da', 'lastActiveAt': 1561111387, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1745x852', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1745x852'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:03:07', 'visitor': {'userId': '', 'clientId': '2c51926fe79f6882455848cbfb4ee1ae', 'trackingId': '1ca15434-f512-4120-a2e7-488d96edee98'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': 'Dạ chào bạn, CSKH hỗ trợ được gì cho bạn ạ?', 'nodeName': 'INPUT', 'createdAt': 1561111387, 'id': '05c461cd-ab8d-43f5-bcd5-1347dfa7af11', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:03:07.000Z', 'sessionLastActiveAt': '2019-06-21T10:03:07.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:03:00.441', 'end_time': '2019-06-21T10:04:00.441'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:04:00.589 2019-06-21T10:05:00.589
+enter_query
+1m
+process_hits: 1
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'rtF_eWsBE0U105S5AInF', '_score': 2.714637, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:04:52.000Z', 'offset': 107273, 'schemaName': 'web.focusForm', 'stm': 1561111492, '@timestamp': '2019-06-21T10:04:53.755Z', 'browser': {'build': '', 'os_minor': '0', 'device': 'Generic Smartphone', 'major': '75', 'os': 'Android', 'os_name': 'Android', 'os_major': '8', 'minor': '0', 'name': 'Chrome Mobile', 'patch': '3770'}, 'client': '115.79.24.231', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '115.79.24.231', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 0, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561111367, 'id': 'fd9b124f-7a78-4c1b-ab01-349437a61511', 'lastActiveAt': 1561111492, 'title': 'Teko Communication Tool', 'language': 'vi-VN', 'tz': 'Asia/Saigon', 'vp': '412x743', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Linux armv8l', 'res': '412x823', 'charset': 'UTF-8', 'ds': '412x743'}, 'userAgent': 'Mozilla/5.0 (Linux; Android 8.0.0; LGM-V300L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Mobile Safari/537.36', 'serverTime': '2019-06-21T10:04:53', 'visitor': {'userId': '', 'clientId': '95cea1223301aed806949c041d624c9e', 'trackingId': 'd45e3728-f764-4794-aa73-8dd908ca9917'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561111492, 'id': '6acad76c-22ec-4a69-9ac0-a023ac92d5f5', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:04:52.000Z', 'sessionLastActiveAt': '2019-06-21T10:04:52.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'rtF_eWsBE0U105S5AInF', '_score': 2.714637, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:04:52.000Z', 'offset': 107273, 'schemaName': 'web.focusForm', 'stm': 1561111492, '@timestamp': '2019-06-21T10:04:53.755Z', 'browser': {'build': '', 'os_minor': '0', 'device': 'Generic Smartphone', 'major': '75', 'os': 'Android', 'os_name': 'Android', 'os_major': '8', 'minor': '0', 'name': 'Chrome Mobile', 'patch': '3770'}, 'client': '115.79.24.231', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '115.79.24.231', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 0, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561111367, 'id': 'fd9b124f-7a78-4c1b-ab01-349437a61511', 'lastActiveAt': 1561111492, 'title': 'Teko Communication Tool', 'language': 'vi-VN', 'tz': 'Asia/Saigon', 'vp': '412x743', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Linux armv8l', 'res': '412x823', 'charset': 'UTF-8', 'ds': '412x743'}, 'userAgent': 'Mozilla/5.0 (Linux; Android 8.0.0; LGM-V300L) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.101 Mobile Safari/537.36', 'serverTime': '2019-06-21T10:04:53', 'visitor': {'userId': '', 'clientId': '95cea1223301aed806949c041d624c9e', 'trackingId': 'd45e3728-f764-4794-aa73-8dd908ca9917'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561111492, 'id': '6acad76c-22ec-4a69-9ac0-a023ac92d5f5', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:04:52.000Z', 'sessionLastActiveAt': '2019-06-21T10:04:52.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:04:00.589', 'end_time': '2019-06-21T10:05:00.589'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:05:00.493 2019-06-21T10:06:00.493
+enter_query
+1m
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 148, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:06:00.433 2019-06-21T10:07:00.433
+enter_query
+1m
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 148, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:07:00.462 2019-06-21T10:08:00.462
+enter_query
+1m
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 148, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:08:00.450 2019-06-21T10:09:00.450
+enter_query
+1m
+process_hits: 5
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'EdGCeWsBE0U105S5VJFd', '_score': 2.7140725, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:08:28.000Z', 'offset': 135384, 'schemaName': 'web.focusForm', 'stm': 1561111708, '@timestamp': '2019-06-21T10:08:31.771Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561109025, 'id': '78e9971d-84cb-49de-85ba-88d2d38fe170', 'lastActiveAt': 1561111708, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Saigon', 'vp': '2400x1211', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '2400x1211'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:08:31', 'visitor': {'userId': '', 'clientId': '9ace1de74b275c6f7850df686c6ae9ff', 'trackingId': '292c5de9-2a25-491c-91b7-11dd9289d033'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561111708, 'id': '1dee3b16-9808-4cbd-a26f-e53e6e0f1b65', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:08:28.000Z', 'sessionLastActiveAt': '2019-06-21T10:08:28.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'EdGCeWsBE0U105S5VJFd', '_score': 2.7140725, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:08:28.000Z', 'offset': 135384, 'schemaName': 'web.focusForm', 'stm': 1561111708, '@timestamp': '2019-06-21T10:08:31.771Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561109025, 'id': '78e9971d-84cb-49de-85ba-88d2d38fe170', 'lastActiveAt': 1561111708, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Saigon', 'vp': '2400x1211', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '2400x1211'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:08:31', 'visitor': {'userId': '', 'clientId': '9ace1de74b275c6f7850df686c6ae9ff', 'trackingId': '292c5de9-2a25-491c-91b7-11dd9289d033'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561111708, 'id': '1dee3b16-9808-4cbd-a26f-e53e6e0f1b65', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:08:28.000Z', 'sessionLastActiveAt': '2019-06-21T10:08:28.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:08:00.450', 'end_time': '2019-06-21T10:09:00.450'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:09:00.463 2019-06-21T10:10:00.463
+enter_query
+1m
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 148, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:10:00.518 2019-06-21T10:11:00.518
+enter_query
+1m
+process_hits: 1
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'gNGEeWsBE0U105S5TJVa', '_score': 2.6783822, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:10:35.000Z', 'offset': 148595, 'schemaName': 'web.focusForm', 'stm': 1561111835, '@timestamp': '2019-06-21T10:10:40.777Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561111761, 'id': '7e0e19e2-486f-4f79-a65c-dc455d73a2a5', 'lastActiveAt': 1561111835, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1654x1002', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1654x1002'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:10:35', 'visitor': {'userId': '', 'clientId': '5a0999bb8807ad6977424a8a88683464', 'trackingId': '508692df-48a8-4803-a1ae-a5a8854b4d48'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '1602728', 'nodeName': 'INPUT', 'createdAt': 1561111835, 'id': 'ddda0d9b-214e-42c1-b65e-1b1ff96848fa', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'search', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'search', 'elementClasses': ['form-control-sm', 'form-control'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:10:35.000Z', 'sessionLastActiveAt': '2019-06-21T10:10:35.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'gNGEeWsBE0U105S5TJVa', '_score': 2.6783822, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:10:35.000Z', 'offset': 148595, 'schemaName': 'web.focusForm', 'stm': 1561111835, '@timestamp': '2019-06-21T10:10:40.777Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561111761, 'id': '7e0e19e2-486f-4f79-a65c-dc455d73a2a5', 'lastActiveAt': 1561111835, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1654x1002', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1654x1002'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:10:35', 'visitor': {'userId': '', 'clientId': '5a0999bb8807ad6977424a8a88683464', 'trackingId': '508692df-48a8-4803-a1ae-a5a8854b4d48'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '1602728', 'nodeName': 'INPUT', 'createdAt': 1561111835, 'id': 'ddda0d9b-214e-42c1-b65e-1b1ff96848fa', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'search', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'search', 'elementClasses': ['form-control-sm', 'form-control'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:10:35.000Z', 'sessionLastActiveAt': '2019-06-21T10:10:35.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:10:00.518', 'end_time': '2019-06-21T10:11:00.518'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:11:00.486 2019-06-21T10:12:00.486
+enter_query
+1m
+process_hits: 2
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'kdGEeWsBE0U105S5yZZY', '_score': 2.715546, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:11:15.000Z', 'offset': 172420, 'schemaName': 'web.focusForm', 'stm': 1561111875, '@timestamp': '2019-06-21T10:11:13.780Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561109198, 'id': '16f55d9b-87cc-474d-a354-19afc9ced5c0', 'lastActiveAt': 1561111875, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1920x969', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x969'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:11:13', 'visitor': {'userId': '', 'clientId': '5a0999bb8807ad6977424a8a88683464', 'trackingId': '3b1d0f1c-461e-4dce-87cf-4af132e8a600'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561111875, 'id': '19814af4-dcaa-4c94-b7ab-22f85bc749fe', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:11:15.000Z', 'sessionLastActiveAt': '2019-06-21T10:11:15.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'kdGEeWsBE0U105S5yZZY', '_score': 2.715546, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:11:15.000Z', 'offset': 172420, 'schemaName': 'web.focusForm', 'stm': 1561111875, '@timestamp': '2019-06-21T10:11:13.780Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561109198, 'id': '16f55d9b-87cc-474d-a354-19afc9ced5c0', 'lastActiveAt': 1561111875, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1920x969', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x969'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:11:13', 'visitor': {'userId': '', 'clientId': '5a0999bb8807ad6977424a8a88683464', 'trackingId': '3b1d0f1c-461e-4dce-87cf-4af132e8a600'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561111875, 'id': '19814af4-dcaa-4c94-b7ab-22f85bc749fe', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:11:15.000Z', 'sessionLastActiveAt': '2019-06-21T10:11:15.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:11:00.486', 'end_time': '2019-06-21T10:12:00.486'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:12:00.463 2019-06-21T10:13:00.463
+enter_query
+1m
+process_hits: 3
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'T9GFeWsBE0U105S5mJhd', '_score': 2.715479, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:12:04.000Z', 'offset': 130783, 'schemaName': 'web.focusForm', 'stm': 1561111924, '@timestamp': '2019-06-21T10:12:05.776Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '113.161.85.136', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '113.161.85.136', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561111771, 'id': '627b042c-dbcf-441b-9df0-ed7f93cd066a', 'lastActiveAt': 1561111924, 'title': 'Teko Communication Tool', 'language': 'vi-VN', 'tz': 'Asia/Bangkok', 'vp': '1707x760', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1366x768', 'charset': 'UTF-8', 'ds': '1708x760'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:12:05', 'visitor': {'userId': '', 'clientId': '535d9f626e2afd2cadc1841c10392272', 'trackingId': 'd1729df5-ec78-4286-94bc-88baf930aed7'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '1808327', 'nodeName': 'INPUT', 'createdAt': 1561111924, 'id': '24222050-2416-4184-a226-6f6dd83ba1d5', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'search', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'search', 'elementClasses': ['form-control-sm', 'form-control'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:12:04.000Z', 'sessionLastActiveAt': '2019-06-21T10:12:04.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'T9GFeWsBE0U105S5mJhd', '_score': 2.715479, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:12:04.000Z', 'offset': 130783, 'schemaName': 'web.focusForm', 'stm': 1561111924, '@timestamp': '2019-06-21T10:12:05.776Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '113.161.85.136', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '113.161.85.136', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561111771, 'id': '627b042c-dbcf-441b-9df0-ed7f93cd066a', 'lastActiveAt': 1561111924, 'title': 'Teko Communication Tool', 'language': 'vi-VN', 'tz': 'Asia/Bangkok', 'vp': '1707x760', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1366x768', 'charset': 'UTF-8', 'ds': '1708x760'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:12:05', 'visitor': {'userId': '', 'clientId': '535d9f626e2afd2cadc1841c10392272', 'trackingId': 'd1729df5-ec78-4286-94bc-88baf930aed7'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '1808327', 'nodeName': 'INPUT', 'createdAt': 1561111924, 'id': '24222050-2416-4184-a226-6f6dd83ba1d5', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'search', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'search', 'elementClasses': ['form-control-sm', 'form-control'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:12:04.000Z', 'sessionLastActiveAt': '2019-06-21T10:12:04.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:12:00.463', 'end_time': '2019-06-21T10:13:00.463'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:13:00.466 2019-06-21T10:14:00.466
+enter_query
+1m
+process_hits: 2
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': '0NGHeWsBE0U105S5C5t6', '_score': 2.714048, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:13:40.000Z', 'offset': 181280, 'schemaName': 'web.focusForm', 'stm': 1561112020, '@timestamp': '2019-06-21T10:13:40.782Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561081544, 'id': 'f21f8205-ea07-4084-bc81-37ad594c0fc4', 'lastActiveAt': 1561112020, 'title': 'Teko Communication Tool', 'language': 'vi-VN', 'tz': 'Asia/Saigon', 'vp': '1745x881', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1745x881'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:13:40', 'visitor': {'userId': '', 'clientId': '95aafa54f90307e534d6efec6218b9f4', 'trackingId': 'a95dca7b-5849-4a83-bb9d-b45e73af8568'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112020, 'id': 'bacd4a52-3077-4a29-8bb9-e08a7b6daece', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:13:40.000Z', 'sessionLastActiveAt': '2019-06-21T10:13:40.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': '0NGHeWsBE0U105S5C5t6', '_score': 2.714048, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:13:40.000Z', 'offset': 181280, 'schemaName': 'web.focusForm', 'stm': 1561112020, '@timestamp': '2019-06-21T10:13:40.782Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561081544, 'id': 'f21f8205-ea07-4084-bc81-37ad594c0fc4', 'lastActiveAt': 1561112020, 'title': 'Teko Communication Tool', 'language': 'vi-VN', 'tz': 'Asia/Saigon', 'vp': '1745x881', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1745x881'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:13:40', 'visitor': {'userId': '', 'clientId': '95aafa54f90307e534d6efec6218b9f4', 'trackingId': 'a95dca7b-5849-4a83-bb9d-b45e73af8568'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112020, 'id': 'bacd4a52-3077-4a29-8bb9-e08a7b6daece', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:13:40.000Z', 'sessionLastActiveAt': '2019-06-21T10:13:40.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:13:00.466', 'end_time': '2019-06-21T10:14:00.466'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:14:00.457 2019-06-21T10:15:00.457
+enter_query
+1m
+process_hits: 3
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'gtGHeWsBE0U105S5UZzQ', '_score': 2.7122338, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:14:01.000Z', 'offset': 188268, 'schemaName': 'web.focusForm', 'stm': 1561112041, '@timestamp': '2019-06-21T10:13:59.783Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '113.161.85.136', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '113.161.85.136', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561108917, 'id': '174170ff-bfa7-4251-aebb-2aed006315f2', 'lastActiveAt': 1561112041, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1920x937', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x937'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:13:58', 'visitor': {'userId': '', 'clientId': 'f1e5fccd0385fcbc4a72d3f497608d36', 'trackingId': 'fb56cb68-fa10-485c-a18f-f0340d75e3c3'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112041, 'id': '613f518f-3733-4528-8196-9badcddec59e', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:14:01.000Z', 'sessionLastActiveAt': '2019-06-21T10:14:01.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'gtGHeWsBE0U105S5UZzQ', '_score': 2.7122338, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:14:01.000Z', 'offset': 188268, 'schemaName': 'web.focusForm', 'stm': 1561112041, '@timestamp': '2019-06-21T10:13:59.783Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '113.161.85.136', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '113.161.85.136', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561108917, 'id': '174170ff-bfa7-4251-aebb-2aed006315f2', 'lastActiveAt': 1561112041, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1920x937', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x937'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:13:58', 'visitor': {'userId': '', 'clientId': 'f1e5fccd0385fcbc4a72d3f497608d36', 'trackingId': 'fb56cb68-fa10-485c-a18f-f0340d75e3c3'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112041, 'id': '613f518f-3733-4528-8196-9badcddec59e', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:14:01.000Z', 'sessionLastActiveAt': '2019-06-21T10:14:01.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:14:00.457', 'end_time': '2019-06-21T10:15:00.457'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:15:00.484 2019-06-21T10:16:00.484
+enter_query
+1m
+process_hits: 5
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': '39GIeWsBE0U105S5Z54s', '_score': 2.7123358, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:15:07.000Z', 'offset': 200914, 'schemaName': 'web.focusForm', 'stm': 1561112107, '@timestamp': '2019-06-21T10:15:09.786Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561111761, 'id': '7e0e19e2-486f-4f79-a65c-dc455d73a2a5', 'lastActiveAt': 1561112107, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1654x1002', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1654x1002'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:15:07', 'visitor': {'userId': '', 'clientId': '5a0999bb8807ad6977424a8a88683464', 'trackingId': '508692df-48a8-4803-a1ae-a5a8854b4d48'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112107, 'id': '389baf5a-3165-4d41-9e56-262728d949d3', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:15:07.000Z', 'sessionLastActiveAt': '2019-06-21T10:15:07.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': '39GIeWsBE0U105S5Z54s', '_score': 2.7123358, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:15:07.000Z', 'offset': 200914, 'schemaName': 'web.focusForm', 'stm': 1561112107, '@timestamp': '2019-06-21T10:15:09.786Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561111761, 'id': '7e0e19e2-486f-4f79-a65c-dc455d73a2a5', 'lastActiveAt': 1561112107, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1654x1002', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1654x1002'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:15:07', 'visitor': {'userId': '', 'clientId': '5a0999bb8807ad6977424a8a88683464', 'trackingId': '508692df-48a8-4803-a1ae-a5a8854b4d48'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112107, 'id': '389baf5a-3165-4d41-9e56-262728d949d3', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:15:07.000Z', 'sessionLastActiveAt': '2019-06-21T10:15:07.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:15:00.484', 'end_time': '2019-06-21T10:16:00.484'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:16:00.459 2019-06-21T10:17:00.459
+enter_query
+1m
+process_hits: 5
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': '0tGJeWsBE0U105S5QaDu', '_score': 2.7118938, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:16:04.000Z', 'offset': 270494, 'schemaName': 'web.focusForm', 'stm': 1561112164, '@timestamp': '2019-06-21T10:16:05.792Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561111761, 'id': '7e0e19e2-486f-4f79-a65c-dc455d73a2a5', 'lastActiveAt': 1561112164, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1654x1002', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1654x1002'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:16:04', 'visitor': {'userId': '', 'clientId': '5a0999bb8807ad6977424a8a88683464', 'trackingId': '508692df-48a8-4803-a1ae-a5a8854b4d48'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112164, 'id': '4790cf8f-a134-4af3-b92f-d02a362bc080', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:16:04.000Z', 'sessionLastActiveAt': '2019-06-21T10:16:04.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': '0tGJeWsBE0U105S5QaDu', '_score': 2.7118938, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:16:04.000Z', 'offset': 270494, 'schemaName': 'web.focusForm', 'stm': 1561112164, '@timestamp': '2019-06-21T10:16:05.792Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561111761, 'id': '7e0e19e2-486f-4f79-a65c-dc455d73a2a5', 'lastActiveAt': 1561112164, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1654x1002', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1654x1002'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:16:04', 'visitor': {'userId': '', 'clientId': '5a0999bb8807ad6977424a8a88683464', 'trackingId': '508692df-48a8-4803-a1ae-a5a8854b4d48'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112164, 'id': '4790cf8f-a134-4af3-b92f-d02a362bc080', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:16:04.000Z', 'sessionLastActiveAt': '2019-06-21T10:16:04.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:16:00.459', 'end_time': '2019-06-21T10:17:00.459'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:17:00.452 2019-06-21T10:18:00.453
+enter_query
+1m
+process_hits: 6
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'VtGKeWsBE0U105S5Q6O9', '_score': 2.7119417, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:17:12.000Z', 'offset': 244925, 'schemaName': 'web.focusForm', 'stm': 1561112232, '@timestamp': '2019-06-21T10:17:11.795Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '113.161.85.136', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '113.161.85.136', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561111795, 'id': '26b1c18d-6ae5-4a05-b6ea-714d9c851103', 'lastActiveAt': 1561112232, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Saigon', 'vp': '1920x969', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x969'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:17:11', 'visitor': {'userId': '', 'clientId': '9ace1de74b275c6f7850df686c6ae9ff', 'trackingId': 'd192c10f-4783-4b4b-b6cf-e5834a41a89d'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '1810530', 'nodeName': 'INPUT', 'createdAt': 1561112232, 'id': '9d93a0f9-08a5-4dcc-b381-d45bd3e3e58e', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'search', 'href': 'https://chat-v2.teko.vn/stocks', 'elementId': 'search', 'elementClasses': ['form-control-sm', 'form-control'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:17:12.000Z', 'sessionLastActiveAt': '2019-06-21T10:17:12.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'VtGKeWsBE0U105S5Q6O9', '_score': 2.7119417, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:17:12.000Z', 'offset': 244925, 'schemaName': 'web.focusForm', 'stm': 1561112232, '@timestamp': '2019-06-21T10:17:11.795Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '113.161.85.136', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '113.161.85.136', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561111795, 'id': '26b1c18d-6ae5-4a05-b6ea-714d9c851103', 'lastActiveAt': 1561112232, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Saigon', 'vp': '1920x969', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x969'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:17:11', 'visitor': {'userId': '', 'clientId': '9ace1de74b275c6f7850df686c6ae9ff', 'trackingId': 'd192c10f-4783-4b4b-b6cf-e5834a41a89d'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '1810530', 'nodeName': 'INPUT', 'createdAt': 1561112232, 'id': '9d93a0f9-08a5-4dcc-b381-d45bd3e3e58e', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'search', 'href': 'https://chat-v2.teko.vn/stocks', 'elementId': 'search', 'elementClasses': ['form-control-sm', 'form-control'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:17:12.000Z', 'sessionLastActiveAt': '2019-06-21T10:17:12.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:17:00.452', 'end_time': '2019-06-21T10:18:00.453'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:18:00.466 2019-06-21T10:19:00.466
+enter_query
+1m
+process_hits: 2
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': '1NGLeWsBE0U105S5RaWS', '_score': 2.7116642, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:18:19.000Z', 'offset': 266502, 'schemaName': 'web.focusForm', 'stm': 1561112299, '@timestamp': '2019-06-21T10:18:17.800Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561109198, 'id': '16f55d9b-87cc-474d-a354-19afc9ced5c0', 'lastActiveAt': 1561112299, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1920x969', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x969'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:18:17', 'visitor': {'userId': '', 'clientId': '5a0999bb8807ad6977424a8a88683464', 'trackingId': '3b1d0f1c-461e-4dce-87cf-4af132e8a600'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112299, 'id': '108643f1-4501-461a-a8a6-0b16fb8baa71', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:18:19.000Z', 'sessionLastActiveAt': '2019-06-21T10:18:19.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': '1NGLeWsBE0U105S5RaWS', '_score': 2.7116642, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:18:19.000Z', 'offset': 266502, 'schemaName': 'web.focusForm', 'stm': 1561112299, '@timestamp': '2019-06-21T10:18:17.800Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561109198, 'id': '16f55d9b-87cc-474d-a354-19afc9ced5c0', 'lastActiveAt': 1561112299, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1920x969', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x969'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:18:17', 'visitor': {'userId': '', 'clientId': '5a0999bb8807ad6977424a8a88683464', 'trackingId': '3b1d0f1c-461e-4dce-87cf-4af132e8a600'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112299, 'id': '108643f1-4501-461a-a8a6-0b16fb8baa71', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:18:19.000Z', 'sessionLastActiveAt': '2019-06-21T10:18:19.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:18:00.466', 'end_time': '2019-06-21T10:19:00.466'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:19:00.459 2019-06-21T10:20:00.459
+enter_query
+1m
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 148, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:20:00.459 2019-06-21T10:21:00.459
+enter_query
+1m
+process_hits: 1
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'N9GNeWsBE0U105S5Sao1', '_score': 2.676686, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:20:27.000Z', 'offset': 328782, 'schemaName': 'web.focusForm', 'stm': 1561112427, '@timestamp': '2019-06-21T10:20:29.802Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561093652, 'id': '23b6a2ca-3359-439c-8060-68f8368ec822', 'lastActiveAt': 1561112427, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Saigon', 'vp': '1920x969', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x969'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:20:26', 'visitor': {'userId': '', 'clientId': '6c7ee23d245359133636f095c69f0da5', 'trackingId': '7e39e07a-5944-4f4a-a52c-5c83f24f7b6e'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '1809178           ', 'nodeName': 'INPUT', 'createdAt': 1561112427, 'id': '17f20272-4702-45f9-afe2-501f8ee4fdc5', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'search', 'href': 'https://chat-v2.teko.vn/stocks', 'elementId': 'search', 'elementClasses': ['form-control-sm', 'form-control'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:20:27.000Z', 'sessionLastActiveAt': '2019-06-21T10:20:27.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'N9GNeWsBE0U105S5Sao1', '_score': 2.676686, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:20:27.000Z', 'offset': 328782, 'schemaName': 'web.focusForm', 'stm': 1561112427, '@timestamp': '2019-06-21T10:20:29.802Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561093652, 'id': '23b6a2ca-3359-439c-8060-68f8368ec822', 'lastActiveAt': 1561112427, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Saigon', 'vp': '1920x969', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x969'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:20:26', 'visitor': {'userId': '', 'clientId': '6c7ee23d245359133636f095c69f0da5', 'trackingId': '7e39e07a-5944-4f4a-a52c-5c83f24f7b6e'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '1809178           ', 'nodeName': 'INPUT', 'createdAt': 1561112427, 'id': '17f20272-4702-45f9-afe2-501f8ee4fdc5', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'search', 'href': 'https://chat-v2.teko.vn/stocks', 'elementId': 'search', 'elementClasses': ['form-control-sm', 'form-control'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:20:27.000Z', 'sessionLastActiveAt': '2019-06-21T10:20:27.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:20:00.459', 'end_time': '2019-06-21T10:21:00.459'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:21:00.482 2019-06-21T10:22:00.482
+enter_query
+1m
+process_hits: 4
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': '-dGOeWsBE0U105S5BKu8', '_score': 2.7112792, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:21:17.000Z', 'offset': 341411, 'schemaName': 'web.focusForm', 'stm': 1561112477, '@timestamp': '2019-06-21T10:21:18.805Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561111771, 'id': '627b042c-dbcf-441b-9df0-ed7f93cd066a', 'lastActiveAt': 1561112477, 'title': 'Teko Communication Tool', 'language': 'vi-VN', 'tz': 'Asia/Bangkok', 'vp': '1707x760', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1366x768', 'charset': 'UTF-8', 'ds': '1708x760'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:21:18', 'visitor': {'userId': '', 'clientId': '535d9f626e2afd2cadc1841c10392272', 'trackingId': 'd1729df5-ec78-4286-94bc-88baf930aed7'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112477, 'id': '4615b200-d2a2-4112-8bdc-b69d624c7f40', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:21:17.000Z', 'sessionLastActiveAt': '2019-06-21T10:21:17.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': '-dGOeWsBE0U105S5BKu8', '_score': 2.7112792, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:21:17.000Z', 'offset': 341411, 'schemaName': 'web.focusForm', 'stm': 1561112477, '@timestamp': '2019-06-21T10:21:18.805Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561111771, 'id': '627b042c-dbcf-441b-9df0-ed7f93cd066a', 'lastActiveAt': 1561112477, 'title': 'Teko Communication Tool', 'language': 'vi-VN', 'tz': 'Asia/Bangkok', 'vp': '1707x760', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1366x768', 'charset': 'UTF-8', 'ds': '1708x760'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:21:18', 'visitor': {'userId': '', 'clientId': '535d9f626e2afd2cadc1841c10392272', 'trackingId': 'd1729df5-ec78-4286-94bc-88baf930aed7'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112477, 'id': '4615b200-d2a2-4112-8bdc-b69d624c7f40', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:21:17.000Z', 'sessionLastActiveAt': '2019-06-21T10:21:17.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:21:00.482', 'end_time': '2019-06-21T10:22:00.482'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:22:00.516 2019-06-21T10:23:00.516
+enter_query
+1m
+process_hits: 9
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'FtGOeWsBE0U105S5_q7A', '_score': 2.7096472, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:22:21.000Z', 'offset': 367165, 'schemaName': 'web.focusForm', 'stm': 1561112541, '@timestamp': '2019-06-21T10:22:21.811Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561092874, 'id': '3cf4237b-787c-49c8-af11-a5d9f88d404d', 'lastActiveAt': 1561112541, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Saigon', 'vp': '1920x930', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x930'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:22:21', 'visitor': {'userId': '', 'clientId': '404824a65ca75af54e08bde0ffec547b', 'trackingId': '359f01b3-3056-43ac-bc16-1feb7091af70'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112541, 'id': 'a58cdc7b-dcbc-4cf2-aa07-4e468e5f474a', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:22:21.000Z', 'sessionLastActiveAt': '2019-06-21T10:22:21.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'FtGOeWsBE0U105S5_q7A', '_score': 2.7096472, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:22:21.000Z', 'offset': 367165, 'schemaName': 'web.focusForm', 'stm': 1561112541, '@timestamp': '2019-06-21T10:22:21.811Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561092874, 'id': '3cf4237b-787c-49c8-af11-a5d9f88d404d', 'lastActiveAt': 1561112541, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Saigon', 'vp': '1920x930', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x930'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:22:21', 'visitor': {'userId': '', 'clientId': '404824a65ca75af54e08bde0ffec547b', 'trackingId': '359f01b3-3056-43ac-bc16-1feb7091af70'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112541, 'id': 'a58cdc7b-dcbc-4cf2-aa07-4e468e5f474a', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:22:21.000Z', 'sessionLastActiveAt': '2019-06-21T10:22:21.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:22:00.516', 'end_time': '2019-06-21T10:23:00.516'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:23:00.518 2019-06-21T10:24:00.518
+enter_query
+1m
+process_hits: 2
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'TNGPeWsBE0U105S55bA-', '_score': 2.6723623, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:23:17.000Z', 'offset': 329026, 'schemaName': 'web.focusForm', 'stm': 1561112597, '@timestamp': '2019-06-21T10:23:20.817Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561109025, 'id': '78e9971d-84cb-49de-85ba-88d2d38fe170', 'lastActiveAt': 1561112597, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Saigon', 'vp': '2400x1211', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '2400x1211'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:23:19', 'visitor': {'userId': '', 'clientId': '9ace1de74b275c6f7850df686c6ae9ff', 'trackingId': '292c5de9-2a25-491c-91b7-11dd9289d033'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112597, 'id': 'a25941af-671a-4cd8-b5bb-f567f5c5feff', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:23:17.000Z', 'sessionLastActiveAt': '2019-06-21T10:23:17.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'TNGPeWsBE0U105S55bA-', '_score': 2.6723623, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:23:17.000Z', 'offset': 329026, 'schemaName': 'web.focusForm', 'stm': 1561112597, '@timestamp': '2019-06-21T10:23:20.817Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561109025, 'id': '78e9971d-84cb-49de-85ba-88d2d38fe170', 'lastActiveAt': 1561112597, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Saigon', 'vp': '2400x1211', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '2400x1211'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:23:19', 'visitor': {'userId': '', 'clientId': '9ace1de74b275c6f7850df686c6ae9ff', 'trackingId': '292c5de9-2a25-491c-91b7-11dd9289d033'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112597, 'id': 'a25941af-671a-4cd8-b5bb-f567f5c5feff', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:23:17.000Z', 'sessionLastActiveAt': '2019-06-21T10:23:17.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:23:00.518', 'end_time': '2019-06-21T10:24:00.518'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:24:00.486 2019-06-21T10:25:00.486
+enter_query
+1m
+process_hits: 2
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'yNGReWsBE0U105S5YLM3', '_score': 2.710616, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:24:53.000Z', 'offset': 374584, 'schemaName': 'web.focusForm', 'stm': 1561112693, '@timestamp': '2019-06-21T10:24:57.826Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '113.161.85.136', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '113.161.85.136', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561108917, 'id': '174170ff-bfa7-4251-aebb-2aed006315f2', 'lastActiveAt': 1561112693, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1920x937', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x937'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:24:50', 'visitor': {'userId': '', 'clientId': 'f1e5fccd0385fcbc4a72d3f497608d36', 'trackingId': 'fb56cb68-fa10-485c-a18f-f0340d75e3c3'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112693, 'id': '6fa5f77a-091f-43da-b228-abc310dc5f27', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:24:53.000Z', 'sessionLastActiveAt': '2019-06-21T10:24:53.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'yNGReWsBE0U105S5YLM3', '_score': 2.710616, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:24:53.000Z', 'offset': 374584, 'schemaName': 'web.focusForm', 'stm': 1561112693, '@timestamp': '2019-06-21T10:24:57.826Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '75', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3770', 'name': 'Chrome'}, 'client': '113.161.85.136', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '113.161.85.136', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561108917, 'id': '174170ff-bfa7-4251-aebb-2aed006315f2', 'lastActiveAt': 1561112693, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Bangkok', 'vp': '1920x937', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x937'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36', 'serverTime': '2019-06-21T10:24:50', 'visitor': {'userId': '', 'clientId': 'f1e5fccd0385fcbc4a72d3f497608d36', 'trackingId': 'fb56cb68-fa10-485c-a18f-f0340d75e3c3'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': '', 'nodeName': 'INPUT', 'createdAt': 1561112693, 'id': '6fa5f77a-091f-43da-b228-abc310dc5f27', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:24:53.000Z', 'sessionLastActiveAt': '2019-06-21T10:24:53.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:24:00.486', 'end_time': '2019-06-21T10:25:00.486'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:25:00.609 2019-06-21T10:26:00.609
+enter_query
+1m
+process_hits: 2
+hits1 {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'htGReWsBE0U105S5srQ1', '_score': 2.671958, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:25:18.000Z', 'offset': 392940, 'schemaName': 'web.focusForm', 'stm': 1561112718, '@timestamp': '2019-06-21T10:25:19.828Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561092874, 'id': '3cf4237b-787c-49c8-af11-a5d9f88d404d', 'lastActiveAt': 1561112718, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Saigon', 'vp': '1920x930', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x930'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:25:18', 'visitor': {'userId': '', 'clientId': '404824a65ca75af54e08bde0ffec547b', 'trackingId': '359f01b3-3056-43ac-bc16-1feb7091af70'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': 'Dạ vâng nếu cần hỗ trợ gì thêm bạn vui lòng nhắn tin cho CSKH nhé. Xin chào và cảm ơn bạn!', 'nodeName': 'INPUT', 'createdAt': 1561112718, 'id': '8b3ebc5f-496d-48e1-a915-538e4a8733fa', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:25:18.000Z', 'sessionLastActiveAt': '2019-06-21T10:25:18.000Z', 'appVer': '1.0.0'}}
+{'event_log': {'_index': 'tracking-chat-tool-v2-2019.06.21', '_type': 'doc', '_id': 'htGReWsBE0U105S5srQ1', '_score': 2.671958, '_source': {'prospector': {'type': 'log'}, 'input': {'type': 'log'}, 'apiSendTime': '2019-06-21T10:25:18.000Z', 'offset': 392940, 'schemaName': 'web.focusForm', 'stm': 1561112718, '@timestamp': '2019-06-21T10:25:19.828Z', 'browser': {'build': '', 'device': 'Other', 'minor': '0', 'major': '74', 'os': 'Windows', 'os_name': 'Windows', 'patch': '3729', 'name': 'Chrome'}, 'client': '42.117.215.84', '@version': '1', 'geoip': {'region_code': 'SG', 'country_code2': 'VN', 'ip': '42.117.215.84', 'country_code3': 'VN', 'continent_code': 'AS', 'timezone': 'Asia/Ho_Chi_Minh', 'city_name': 'Ho Chi Minh City', 'country_name': 'Vietnam', 'longitude': 106.6438, 'region_name': 'Ho Chi Minh City', 'location': {'lat': 10.8142, 'lon': 106.6438}, 'latitude': 10.8142}, 'beat': {'version': '6.4.2', 'name': 'CSKH', 'hostname': 'CSKH'}, 'session': {'features': {'qt': 0, 'cookie': 1, 'pdf': 1, 'fla': 0, 'gears': 0, 'java': 0, 'dir': 0, 'realp': 0, 'wma': 0, 'ag': 0}, 'offset': '+07:00', 'createdAt': 1561092874, 'id': '3cf4237b-787c-49c8-af11-a5d9f88d404d', 'lastActiveAt': 1561112718, 'title': 'Teko Communication Tool', 'language': 'en-US', 'tz': 'Asia/Saigon', 'vp': '1920x930', 'ref': 'https://chat-v2.teko.vn/', 'platform': 'Win32', 'res': '1920x1080', 'charset': 'UTF-8', 'ds': '1920x930'}, 'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36', 'serverTime': '2019-06-21T10:25:18', 'visitor': {'userId': '', 'clientId': '404824a65ca75af54e08bde0ffec547b', 'trackingId': '359f01b3-3056-43ac-bc16-1feb7091af70'}, 'fields': {'log_type': 'tracking-log'}, 'appId': 'chat-tool-v2', 'event': {'inputValue': 'Dạ vâng nếu cần hỗ trợ gì thêm bạn vui lòng nhắn tin cho CSKH nhé. Xin chào và cảm ơn bạn!', 'nodeName': 'INPUT', 'createdAt': 1561112718, 'id': '8b3ebc5f-496d-48e1-a915-538e4a8733fa', 'eventName': 'focusForm', 'pageName': 'Teko Communication Tool', 'formId': '', 'type': 'text', 'href': 'https://chat-v2.teko.vn/', 'elementId': 'text', 'elementClasses': ['border-0', 'ml-4', 'text-dark', 'focus-highlight-disabled', 'w-100'], 'eventType': 'FormEvent'}, 'source': '/home/tuanvm/tracking-log/app/tracking.log', 'clientTime': '2019-06-21T10:25:18.000Z', 'sessionLastActiveAt': '2019-06-21T10:25:18.000Z', 'appVer': '1.0.0'}}, 'goal': {'id': 1, 'name': 'Tracking', 'description': 'Các hành động của người dùng', 'match_attribute': 'eventName', 'pattern': 'focusForm', 'pattern_type': 'contains', 'case_sensitive': 0, 'allow_multiple': 0, 'revenue': 1, 'conversion': 0, 'goal_type': '', 'goal_pattern': '', 'deleted': 0, 'start_time': '2019-06-21T10:25:00.609', 'end_time': '2019-06-21T10:26:00.609'}}
+process_hits: 0
+Traceback (most recent call last):
+  File "main.py", line 22, in <module>
+    query()
+  File "main.py", line 19, in query
+    UrlMatchingGoalQuery(result,from_time,end_time).enter_query()
+  File "/sample/external/query/url_matching_query.py", line 154, in enter_query
+    self.process_hits(data.get('hits').get('hits'), element_data)
+  File "/sample/external/query/url_matching_query.py", line 118, in process_hits
+    print("hits1", hits[0])
+IndexError: list index out of range
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:26:00.509 2019-06-21T10:27:00.509
+process_hits: 4
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:27:00.494 2019-06-21T10:28:00.494
+process_hits: 4
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:28:00.545 2019-06-21T10:29:00.545
+process_hits: 4
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:29:00.494 2019-06-21T10:30:00.494
+process_hits: 1
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:30:00.469 2019-06-21T10:31:00.469
+process_hits: 5
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:31:00.490 2019-06-21T10:32:00.490
+process_hits: 5
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from, end - time:  2019-06-21T10:32:00.537 2019-06-21T10:33:00.537
+process_hits: 4
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+from_time, end_time:  2019-06-21T10:33:00.564 2019-06-21T10:34:00.564
+process_hits: 4
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+ from_time, end_time:  2019-06-21T10:34:00.511 2019-06-21T10:35:00.511
+process_hits: 13
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+ from_time, end_time:  2019-06-21T10:35:00.511 2019-06-21T10:36:00.511
+process_hits: 7
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+ from_time, end_time:  2019-06-21T10:36:00.534 2019-06-21T10:37:00.534
+process_hits: 8
+process_hits: 0
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+ from_time, end_time:  2019-06-21T10:37:00.553 2019-06-21T10:38:00.553
+app_id:  ABCDE12345
+process_hits: 7
+process_hits: 0
+app_id:  ABCDE56789
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+ from_time, end_time:  2019-06-21T10:38:00.510 2019-06-21T10:39:00.510
+app_id:  ABCDE12345
+process_hits: 5
+process_hits: 0
+app_id:  ABCDE56789
+process_hits: 0
+/usr/local/lib/python3.6/site-packages/requests/__init__.py:91: RequestsDependencyWarning: urllib3 (1.25.3) or chardet (3.0.4) doesn't match a supported version!
+  RequestsDependencyWarning)
+######################################
+ from_time, end_time:  2019-06-21T10:39:00.539 2019-06-21T10:40:00.539
+app_id:  ABCDE12345
+process_hits: 12
+process_hits: 0
+app_id:  ABCDE56789
+process_hits: 0
+######################################
+ from_time, end_time:  2019-06-21T10:40:00.520 2019-06-21T10:41:00.520
+app_id:  ABCDE12345
+process_hits: 12
+process_hits: 0
+app_id:  ABCDE56789
+process_hits: 0
+######################################
+ from_time, end_time:  2019-06-21T10:41:00.748 2019-06-21T10:42:00.748
+app_id:  ABCDE12345
+process_hits: 7
+process_hits: 0
+app_id:  ABCDE56789
+process_hits: 0
+######################################
+ from_time, end_time:  2019-06-21T10:42:00.598 2019-06-21T10:43:00.598
+app_id:  ABCDE12345
+process_hits: 8
+process_hits: 0
+app_id:  ABCDE56789
+process_hits: 0
+######################################
+ from_time, end_time:  2019-06-21T10:43:00.690 2019-06-21T10:44:00.690
+app_id:  ABCDE12345
+process_hits: 4
+process_hits: 0
+app_id:  ABCDE56789
+process_hits: 0
+######################################
+ from_time, end_time:  2019-06-21T10:44:00.632 2019-06-21T10:45:00.632
+app_id:  ABCDE12345
+process_hits: 7
+process_hits: 0
+app_id:  ABCDE56789
+process_hits: 0
+######################################
+ from_time, end_time:  2019-06-21T10:45:00.531 2019-06-21T10:46:00.531
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 6
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time, end_time:  2019-06-21T10:46:00.535 2019-06-21T10:47:00.535
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 6
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+  File "main.py", line 17
+    print(" from_time %s - end_time: %s", %(from_time, end_time))
+                                          ^
+SyntaxError: invalid syntax
+  File "main.py", line 17
+    print(" from_time %s - end_time: %s", %(from_time, end_time))
+                                          ^
+SyntaxError: invalid syntax
+  File "main.py", line 17
+    print(" from_time %s - end_time: %s", %(from_time, end_time))
+                                          ^
+SyntaxError: invalid syntax
+######################################
+ from_time 2019-06-21T10:50:00.518 - end_time: 2019-06-21T10:51:00.518
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 5
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-21T10:51:00.505 - end_time: 2019-06-21T10:52:00.505
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 8
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-21T10:52:00.538 - end_time: 2019-06-21T10:53:00.538
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 11
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-21T10:53:00.541 - end_time: 2019-06-21T10:54:00.541
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 5
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-21T10:54:00.634 - end_time: 2019-06-21T10:55:00.634
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 7
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
+######################################
+ from_time 2019-06-21T10:55:00.573 - end_time: 2019-06-21T10:56:00.573
+app_id: ABCDE12345 - idGoal: 1
+process_hits: 5
+process_hits: 0
+app_id: ABCDE56789 - idGoal: 2
+process_hits: 0
