@@ -4753,3 +4753,25 @@ app_id: ABCDE12345 - idGoal: 1
 process_hits: 0
 app_id: ABCDE56789 - idGoal: 2
 process_hits: 0
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
+/bin/ash: /sample/bash/test_cli.sh: not found
