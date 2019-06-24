@@ -1,6 +1,7 @@
 .venv/
 venv/
 myenv/
+env/
 data/
 .pytest_cache/
 
