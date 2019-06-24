@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 
 
-class UrlMatchingGoalQuery(object):
+class EventMatchingGoalQuery(object):
 
     es = Elasticsearch([{'host': os.getenv('ELASTICSEARCH_HOST'),
                          'port': os.getenv('ELASTICSEARCH_PORT')}])
@@ -118,7 +118,7 @@ class UrlMatchingGoalQuery(object):
                 hit, element_data)
             
             # write new doc
-            self.es.index(index="<test-goal-{now/d}>", body=index_body)
+            self.es.index(index="<test-goal-%s-{now/d}>"%(element_data.app_id.lower()), body=index_body)
 
     def enter_query(self):
 
