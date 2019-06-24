@@ -5,9 +5,6 @@ import sqlalchemy as db
 from external.models.goal import Goal
 from sqlalchemy.orm import sessionmaker
 
-_DOT_ENV_PATH = os.path.join(os.path.dirname(__file__), '.env')
-load_dotenv(_DOT_ENV_PATH)
-
 
 class DatabaseInit(object):
     def __init__(self):
