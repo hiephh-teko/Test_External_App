@@ -12,6 +12,7 @@ load_dotenv(_DOT_ENV_PATH)
 
 
 def query():
+    print("run")
     hours_query = os.getenv('ELASTICSEARCH_HOURS_QUERY')
     from_time = (datetime.now() - timedelta(minutes = int(hours_query))).strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3]
     end_time = (datetime.now()).strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] 
