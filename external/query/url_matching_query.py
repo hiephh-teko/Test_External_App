@@ -9,8 +9,6 @@ from external.query.es_helper import ESHelper
 
 class UrlMatchingGoalQuery(object):
 
-    # es = Elasticsearch([{'host': os.getenv('ELASTICSEARCH_HOST'),
-    #                      'port': os.getenv('ELASTICSEARCH_PORT')}])
     scroll_size = os.getenv('ELASTICSEARCH_SCROLL_SIZE')
     scroll_time = os.getenv('ELASTICSEARCH_SCROLL_TIME')
     index_site_tracking = os.getenv('ELASTICSEARCH_INDEX_SITE_TRACKING')
@@ -27,30 +25,30 @@ class UrlMatchingGoalQuery(object):
         body = {
             "query": {
                 "bool": {
-                "must": [
-                    {
-                        "term": {
-                            goal_field: {
-                            "value": goal_value
+                    "must": [
+                        {
+                            "term": {
+                                goal_field: {
+                                    "value": goal_value
+                                }
+                            }
+                        },
+                        {
+                            "term": {
+                                match_field: {
+                                    "value": match_value
+                                }
                             }
                         }
-                    },
-                    {
-                        "term": {
-                            match_field: {
-                            "value": match_value
+                    ],
+                    "filter": {
+                        "range": {
+                            "clientTime": {
+                                "gte": from_time,
+                                "lt": end_time
                             }
                         }
                     }
-                ],
-                "filter": {
-                    "range": {
-                        "clientTime": {
-                            "gte": from_time,
-                            "lt": end_time
-                        }
-                    }
-                }
                 }
             }
         }
@@ -64,14 +62,14 @@ class UrlMatchingGoalQuery(object):
                         {           
                             "term": {
                                 match_field: {
-                                "value": match_value
+                                    "value": match_value
                                 }
                             }
                         },
                         {
                             "regexp": {
                                 goal_field: {
-                                "value": goal_value
+                                    "value": goal_value
                                 }
                             }
                         }
@@ -81,11 +79,11 @@ class UrlMatchingGoalQuery(object):
                             "clientTime": {
                                 "gte": from_time,
                                 "lt": end_time
-                                }
                             }
                         }
                     }
                 }
+            }
         }
         return body
 

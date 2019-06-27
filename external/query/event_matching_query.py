@@ -9,8 +9,6 @@ from external.query.es_helper import ESHelper
 
 class EventMatchingGoalQuery(object):
 
-    # es = Elasticsearch([{'host': os.getenv('ELASTICSEARCH_HOST'),
-    #                      'port': os.getenv('ELASTICSEARCH_PORT')}])
     scroll_size = os.getenv('ELASTICSEARCH_SCROLL_SIZE')
     scroll_time = os.getenv('ELASTICSEARCH_SCROLL_TIME')
     index_site_tracking = os.getenv('ELASTICSEARCH_INDEX_SITE_TRACKING')

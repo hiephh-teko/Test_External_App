@@ -12,8 +12,7 @@ class ESHelper(object):
 
     def get_matching_goal_log_index_body(self, hit, element_data, from_time, end_time):
         return {
-            'event_log':
-                hit,
+            'event_log': hit,
             'goal': {
                 "id": element_data.id,
                 "name": element_data.name,
