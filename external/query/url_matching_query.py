@@ -5,12 +5,10 @@ import requests
 import json
 import os
 from dotenv import load_dotenv
-
+from external.query.es_helper import ESHelper
 
 class UrlMatchingGoalQuery(object):
 
-    es = Elasticsearch([{'host': os.getenv('ELASTICSEARCH_HOST'),
-                         'port': os.getenv('ELASTICSEARCH_PORT')}])
     scroll_size = os.getenv('ELASTICSEARCH_SCROLL_SIZE')
     scroll_time = os.getenv('ELASTICSEARCH_SCROLL_TIME')
     index_site_tracking = os.getenv('ELASTICSEARCH_INDEX_SITE_TRACKING')
@@ -19,18 +17,30 @@ class UrlMatchingGoalQuery(object):
         self.data = data
         self.from_time = from_time
         self.end_time = end_time
+        self.es_helper = ESHelper()
+        self.es = self.es_helper.get_es_config()
 
-    def get_query_contain_type_body(self, field, value, from_time, end_time):
+
+    def get_query_contain_type_body(self, match_field, match_value, goal_field, goal_value, from_time, end_time):
         body = {
             "query": {
                 "bool": {
-                    "must": {
-                        "term": {
-                            field: {
-                                "value": value
+                    "must": [
+                        {
+                            "term": {
+                                goal_field: {
+                                    "value": goal_value
+                                }
+                            }
+                        },
+                        {
+                            "term": {
+                                match_field: {
+                                    "value": match_value
+                                }
                             }
                         }
-                    },
+                    ],
                     "filter": {
                         "range": {
                             "clientTime": {
@@ -44,17 +54,26 @@ class UrlMatchingGoalQuery(object):
         }
         return body
 
-    def get_query_regex_type_body(self, field, value, from_time, end_time):
+    def get_query_regex_type_body(self, match_field, match_value, goal_field, goal_value, from_time, end_time):
         body = {
             "query": {
                 "bool": {
-                    "must": {
-                        "regexp": {
-                            field: {
-                                "value": value
+                    "must": [
+                        {           
+                            "term": {
+                                match_field: {
+                                    "value": match_value
+                                }
+                            }
+                        },
+                        {
+                            "regexp": {
+                                goal_field: {
+                                    "value": goal_value
+                                }
                             }
                         }
-                    },
+                    ],
                     "filter": {
                         "range": {
                             "clientTime": {
@@ -68,15 +87,21 @@ class UrlMatchingGoalQuery(object):
         }
         return body
 
-    def get_hits_from_site_query(self, index, pattern_type, field, value):
-
-        if str(pattern_type) == "contains":
+    def get_hits_from_site_query(self, index, match_pattern_type, match_field, match_value, goal_field, goal_value):
+        res = {
+            '_scroll_id': None, 
+            'hits': {
+                'hits': []
+            }
+        }
+        if str(match_pattern_type) == "contains":
             body = self.get_query_contain_type_body(
-                field, value, self.from_time, self.end_time)
+                match_field, match_value, goal_field, goal_value, self.from_time, self.end_time)
+          
 
-        elif str(pattern_type) == "regex":
+        elif str(match_pattern_type) == "regex":
             body = self.get_query_regex_type_body(
-                field, value, self.from_time, self.end_time)
+                match_field, match_value, goal_field, goal_value, self.from_time, self.end_time)
 
         # Query Elasticsearch
         result_query = self.es.search(
@@ -88,55 +113,41 @@ class UrlMatchingGoalQuery(object):
 
         return result_query
 
-    def get_matching_goal_log_index_body(self, hit, element_data):
-        return {
-            'event_log':
-                hit,
-            'goal': {
-                "id": element_data.id,
-                "name": element_data.name,
-                "description": element_data.description,
-                "match_attribute": element_data.match_attribute,
-                "pattern": element_data.pattern,
-                "pattern_type": element_data.pattern_type,
-                "case_sensitive": element_data.case_sensitive,
-                "allow_multiple": element_data.allow_multiple,
-                "revenue": element_data.revenue,
-                "conversion": element_data.conversion,
-                "goal_type": element_data.goal_type,
-                "goal_pattern": element_data.goal_pattern,
-                "deleted": element_data.deleted,
-                "start_time": self.from_time,
-                "end_time": self.end_time
-            }
-        }
+    def process_hits(self, stored_index, data, element_data):  
+        hits = data.get('hits', {}).get('hits', [])
 
-    def process_hits(self, hits, element_data):  
+        print("goal_id: %d - goal_type: %s - app_id: %s - process_hits: %d" %(element_data.id,element_data.goal_type,element_data.app_id,len(hits)))
+
         for hit in hits:
             # get index body
-            index_body = self.get_matching_goal_log_index_body(
-                hit, element_data)
+            index_body = self.es_helper.get_matching_goal_log_index_body(hit, element_data, self.from_time, self.end_time)
             
             # write new doc
-            self.es.index(index="<test-goal-{now/d}>", body=index_body)
-
+            self.es.index(index=stored_index, body=index_body)
+            
     def enter_query(self):
 
         for element_data in self.data:
+
             # get needed field, value  for query
-            field = str(f"event.{str(element_data.match_attribute)}")
-            value = str(element_data.pattern)
+            match_field = str(f"event.{str(element_data.match_attribute)}")
+            match_value = str(element_data.match_pattern)
+            goal_field = str(f"event.{str(element_data.goal_attribute)}")
+            goal_value = str(element_data.goal_pattern)
+            stored_index = "<test-goal-%s-{now/d}>"%(element_data.app_id.lower())
 
             # get result of scroll by search
             data = self.get_hits_from_site_query(
-                self.index_site_tracking, element_data.pattern_type, field, value)
+                self.index_site_tracking, element_data.match_pattern_type, match_field, match_value, goal_field, goal_value)
 
             # Get the scroll ID
+            if not data:
+                data = {}
             sid = data.get('_scroll_id')
-            scroll_size = len(data.get('hits').get('hits'))
+            scroll_size = len(data.get('hits', {}).get('hits', []))
 
             # Before scroll next, process current batch of hits
-            self.process_hits(data.get('hits').get('hits'), element_data)
+            self.process_hits(stored_index, data, element_data)
 
             while (scroll_size > 0):
                 data = self.es.scroll(scroll_id=sid, scroll=self.scroll_time)

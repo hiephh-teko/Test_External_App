@@ -17,9 +17,11 @@ def query():
     from_time = (datetime.now() - timedelta(minutes = int(hours_query))).strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3]
     end_time = (datetime.now()).strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] 
 
-    result = DatabaseInit().get_data()
+    event_matching_data = DatabaseInit().get_data_event_matching()  
+    EventMatchingGoalQuery(event_matching_data,from_time,end_time).enter_query()
 
-    EventMatchingGoalQuery(result,from_time,end_time).enter_query()
+    # url_matching_data = DatabaseInit().get_data_url_matching()
+    # UrlMatchingGoalQuery(url_matching_data,from_time,end_time).enter_query()
     
 # if __name__ == 'main':
 query()
