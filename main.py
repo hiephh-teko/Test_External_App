@@ -5,6 +5,7 @@ import os
 from dotenv import load_dotenv
 from external.query.url_matching_query import UrlMatchingGoalQuery
 from external.query.event_matching_query import EventMatchingGoalQuery
+from external.query.custom_matching_query import CustomMatchingQuery
 from external.database_init import DatabaseInit
 
 _DOT_ENV_PATH = os.path.join(os.path.dirname(__file__), '.env')
@@ -20,8 +21,8 @@ def query():
     event_matching_data = DatabaseInit().get_data_event_matching()  
     EventMatchingGoalQuery(event_matching_data,from_time,end_time).enter_query()
 
-    # url_matching_data = DatabaseInit().get_data_url_matching()
-    # UrlMatchingGoalQuery(url_matching_data,from_time,end_time).enter_query()
-    
-# if __name__ == 'main':
+    url_matching_data = DatabaseInit().get_data_url_matching()
+    UrlMatchingGoalQuery(url_matching_data,from_time,end_time).enter_query()
+
+
 query()

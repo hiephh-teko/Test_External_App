@@ -113,17 +113,17 @@ class UrlMatchingGoalQuery(object):
 
         return result_query
 
-    def process_hits(self, stored_index, data, element_data):  
-        hits = data.get('hits', {}).get('hits', [])
+    # def process_hits(self, stored_index, data, element_data):  
+    #     hits = data.get('hits', {}).get('hits', [])
 
-        print("goal_id: %d - goal_type: %s - app_id: %s - process_hits: %d" %(element_data.id,element_data.goal_type,element_data.app_id,len(hits)))
+    #     print("goal_id: %d - goal_type: %s - app_id: %s - process_hits: %d" %(element_data.id,element_data.goal_type,element_data.app_id,len(hits)))
 
-        for hit in hits:
-            # get index body
-            index_body = self.es_helper.get_matching_goal_log_index_body(hit, element_data, self.from_time, self.end_time)
+    #     for hit in hits:
+    #         # get index body
+    #         index_body = self.es_helper.get_matching_goal_log_index_body(hit, element_data, self.from_time, self.end_time)
             
-            # write new doc
-            self.es.index(index=stored_index, body=index_body)
+    #         # write new doc
+    #         self.es.index(index=stored_index, body=index_body)
             
     def enter_query(self):
 
@@ -140,23 +140,27 @@ class UrlMatchingGoalQuery(object):
             data = self.get_hits_from_site_query(
                 self.index_site_tracking, element_data.match_pattern_type, match_field, match_value, goal_field, goal_value)
 
+
+            # process scroll query
+            self.es_helper.process_sroll_query(self.es,element_data,data,self.from_time, self.end_time)
+
             # Get the scroll ID
-            if not data:
-                data = {}
-            sid = data.get('_scroll_id')
-            scroll_size = len(data.get('hits', {}).get('hits', []))
+            # if not data:
+            #     data = {}
+            # sid = data.get('_scroll_id')
+            # scroll_size = len(data.get('hits', {}).get('hits', []))
 
-            # Before scroll next, process current batch of hits
-            self.process_hits(stored_index, data, element_data)
+            # # Before scroll next, process current batch of hits
+            # self.process_hits(stored_index, data, element_data)
 
-            while (scroll_size > 0):
-                data = self.es.scroll(scroll_id=sid, scroll=self.scroll_time)
+            # while (scroll_size > 0):
+            #     data = self.es.scroll(scroll_id=sid, scroll=self.scroll_time)
 
-                # process current batch of hits
-                self.process_hits(data.get('hits').get('hits'), element_data)
+            #     # process current batch of hits
+            #     self.process_hits(stored_index, data, element_data)
 
-                # update the scroll id
-                sid = data.get('_scroll_id')
+            #     # update the scroll id
+            #     sid = data.get('_scroll_id')
 
-                # update scroll_size
-                scroll_size = len(data.get('hits').get('hits'))
+            #     # update scroll_size
+            #     scroll_size = len(data.get('hits').get('hits'))

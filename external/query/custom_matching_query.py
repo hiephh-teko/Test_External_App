@@ -1,17 +1,14 @@
 from elasticsearch import Elasticsearch
-import logging
-import pytz
-import requests
-import json
-import os
-from dotenv import load_dotenv
+from elasticsearch.client.indices import IndicesClient
 from external.query.es_helper import ESHelper
+import os
 
-class EventMatchingGoalQuery(object):
+class CustomMatchingQuery(object):
+  
 
     scroll_size = os.getenv('ELASTICSEARCH_SCROLL_SIZE')
-    index_site_tracking = os.getenv('ELASTICSEARCH_INDEX_SITE_TRACKING')
     scroll_time = os.getenv('ELASTICSEARCH_SCROLL_TIME')
+    index_site_tracking = os.getenv('ELASTICSEARCH_INDEX_SITE_TRACKING')
 
     def __init__(self, data, from_time, end_time):
         self.data = data
@@ -20,7 +17,8 @@ class EventMatchingGoalQuery(object):
         self.es_helper = ESHelper()
         self.es = self.es_helper.get_es_config()
 
-    def get_query_contain_type_body(self, field, value, from_time, end_time):
+
+    def get_query_body(self, field, value, from_time, end_time):
         body = {
             "query": {
                 "bool": {
@@ -44,39 +42,9 @@ class EventMatchingGoalQuery(object):
         }
         return body
 
-    def get_query_regex_type_body(self, field, value, from_time, end_time):
-        body = {
-            "query": {
-                "bool": {
-                    "must": {
-                        "regexp": {
-                            field: {
-                                "value": value
-                            }
-                        }
-                    },
-                    "filter": {
-                        "range": {
-                            "clientTime": {
-                                "gte": from_time,
-                                "lt": end_time
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        return body
+    def get_hits_from_site_query(self, index, field, value):
 
-    def get_hits_from_site_query(self, index, match_pattern_type, field, value):
-
-        if str(match_pattern_type) == "contains":
-            body = self.get_query_contain_type_body(
-                field, value, self.from_time, self.end_time)
-
-        elif str(match_pattern_type) == "regex":
-            body = self.get_query_regex_type_body(
-                field, value, self.from_time, self.end_time)
+        body = self.get_query_body(field, value, self.from_time, self.end_time)
 
         # Query Elasticsearch
         result_query = self.es.search(
@@ -88,7 +56,6 @@ class EventMatchingGoalQuery(object):
 
         return result_query
 
-
     def enter_query(self):
 
         for element_data in self.data:
@@ -97,8 +64,8 @@ class EventMatchingGoalQuery(object):
             value = str(element_data.match_pattern)
 
             # get result of scroll by search
-            data = self.get_hits_from_site_query(
-                self.index_site_tracking, element_data.match_pattern_type, field, value)
+            data = self.get_hits_from_site_query(self.index_site_tracking, field, value)
 
             # process scroll query
             self.es_helper.process_sroll_query(self.es,element_data,data,self.from_time, self.end_time)
+    

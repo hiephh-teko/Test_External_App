@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 
 class ESHelper(object):
 
+    scroll_time = os.getenv('ELASTICSEARCH_SCROLL_TIME')
+
 
     def get_es_config(self):
         return Elasticsearch([{'host': os.getenv('ELASTICSEARCH_HOST'),
@@ -44,3 +46,35 @@ class ESHelper(object):
                     }
                 }
             }    
+
+
+    def process_scroll_hits(self, es, data, element_data, from_time, end_time):  
+        hits = data.get('hits', {}).get('hits', [])
+        print("goal_id: %d - goal_type: %s - app_id: %s - process_hits: %d" %(element_data.id,element_data.goal_type,element_data.app_id,len(hits)))
+
+        for hit in hits:
+            # get index body
+            index_body = self.get_matching_goal_log_index_body(hit, element_data, from_time, end_time)
+            
+            # write new doc
+            es.index(index="<test-goal-%s-{now/d}>"%(element_data.app_id.lower()), body=index_body)
+    
+    def process_sroll_query(self, es, element_data, data, from_time, end_time):
+        # Get the scroll ID
+        sid = data.get('_scroll_id')
+        scroll_size = len(data.get('hits').get('hits'))
+
+        # Before scroll next, process current batch of hits
+        self.process_scroll_hits(es, data, element_data, from_time, end_time)
+
+        while (scroll_size > 0):
+            data = es.scroll(scroll_id=sid, scroll=self.scroll_time)
+
+            # process current batch of hits
+            self.process_scroll_hits(es, data, element_data, from_time, end_time)
+
+            # update the scroll id
+            sid = data.get('_scroll_id')
+
+            # update scroll_size
+            scroll_size = len(data.get('hits').get('hits'))
