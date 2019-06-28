@@ -44,11 +44,14 @@ def jira_test_suite(request, jira_test_service):
 
     if submit_tests:
         cls.tests_list = jira_test_service.get_tests_in_issue(cls.ISSUE_KEY)
+        print(cls.tests_list)
 
     yield
 
     if submit_tests:
         def find_existed_test(test_name):
+            for item in cls.tests_list:
+                print(item)
             tests_key_match = [
                 test_key for (test_name, test_key) in cls.tests_list
                 if name == test_name
@@ -56,7 +59,7 @@ def jira_test_suite(request, jira_test_service):
             return None if len(tests_key_match) == 0 else tests_key_match[0]
 
         # Create test keys
-        for name in cls.results:
+        for name in cls.results:            
             test_key = find_existed_test(name)
             if not test_key:
                 test_key = jira_test_service.create_test(name, cls.ISSUE_KEY)
