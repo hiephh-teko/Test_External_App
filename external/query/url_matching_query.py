@@ -13,8 +13,8 @@ class UrlMatchingGoalQuery(object):
     scroll_time = os.getenv('ELASTICSEARCH_SCROLL_TIME')
     index_site_tracking = os.getenv('ELASTICSEARCH_INDEX_SITE_TRACKING')
 
-    def __init__(self, data, from_time, end_time):
-        self.data = data
+    def __init__(self, goal_table_data, from_time, end_time):
+        self.goal_table_data = goal_table_data
         self.from_time = from_time
         self.end_time = end_time
         self.es_helper = ESHelper()
@@ -113,21 +113,9 @@ class UrlMatchingGoalQuery(object):
 
         return result_query
 
-    # def process_hits(self, stored_index, data, element_data):  
-    #     hits = data.get('hits', {}).get('hits', [])
-
-    #     print("goal_id: %d - goal_type: %s - app_id: %s - process_hits: %d" %(element_data.id,element_data.goal_type,element_data.app_id,len(hits)))
-
-    #     for hit in hits:
-    #         # get index body
-    #         index_body = self.es_helper.get_matching_goal_log_index_body(hit, element_data, self.from_time, self.end_time)
-            
-    #         # write new doc
-    #         self.es.index(index=stored_index, body=index_body)
-            
     def enter_query(self):
 
-        for element_data in self.data:
+        for element_data in self.goal_table_data:
 
             # get needed field, value  for query
             match_field = str(f"event.{str(element_data.match_attribute)}")
@@ -144,23 +132,3 @@ class UrlMatchingGoalQuery(object):
             # process scroll query
             self.es_helper.process_sroll_query(self.es,element_data,data,self.from_time, self.end_time)
 
-            # Get the scroll ID
-            # if not data:
-            #     data = {}
-            # sid = data.get('_scroll_id')
-            # scroll_size = len(data.get('hits', {}).get('hits', []))
-
-            # # Before scroll next, process current batch of hits
-            # self.process_hits(stored_index, data, element_data)
-
-            # while (scroll_size > 0):
-            #     data = self.es.scroll(scroll_id=sid, scroll=self.scroll_time)
-
-            #     # process current batch of hits
-            #     self.process_hits(stored_index, data, element_data)
-
-            #     # update the scroll id
-            #     sid = data.get('_scroll_id')
-
-            #     # update scroll_size
-            #     scroll_size = len(data.get('hits').get('hits'))

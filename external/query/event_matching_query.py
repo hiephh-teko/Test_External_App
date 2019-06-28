@@ -13,8 +13,8 @@ class EventMatchingGoalQuery(object):
     index_site_tracking = os.getenv('ELASTICSEARCH_INDEX_SITE_TRACKING')
     scroll_time = os.getenv('ELASTICSEARCH_SCROLL_TIME')
 
-    def __init__(self, data, from_time, end_time):
-        self.data = data
+    def __init__(self, goal_table_data, from_time, end_time):
+        self.goal_table_data = goal_table_data
         self.from_time = from_time
         self.end_time = end_time
         self.es_helper = ESHelper()
@@ -91,7 +91,7 @@ class EventMatchingGoalQuery(object):
 
     def enter_query(self):
 
-        for element_data in self.data:
+        for element_data in self.goal_table_data:
             # get needed field, value  for query
             field = str(f"event.{str(element_data.match_attribute)}")
             value = str(element_data.match_pattern)

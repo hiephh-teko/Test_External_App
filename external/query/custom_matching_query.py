@@ -10,8 +10,8 @@ class CustomMatchingQuery(object):
     scroll_time = os.getenv('ELASTICSEARCH_SCROLL_TIME')
     index_site_tracking = os.getenv('ELASTICSEARCH_INDEX_SITE_TRACKING')
 
-    def __init__(self, data, from_time, end_time):
-        self.data = data
+    def __init__(self, goal_table_data, from_time, end_time):
+        self.goal_table_data = goal_table_data
         self.from_time = from_time
         self.end_time = end_time
         self.es_helper = ESHelper()
@@ -58,13 +58,14 @@ class CustomMatchingQuery(object):
 
     def enter_query(self):
 
-        for element_data in self.data:
+        for element_data in self.goal_table_data:
             # get needed field, value  for query
             field = str(f"event.{str(element_data.match_attribute)}")
             value = str(element_data.match_pattern)
 
             # get result of scroll by search
             data = self.get_hits_from_site_query(self.index_site_tracking, field, value)
+            # print(data)
 
             # process scroll query
             self.es_helper.process_sroll_query(self.es,element_data,data,self.from_time, self.end_time)
