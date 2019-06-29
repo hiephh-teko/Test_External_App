@@ -104,31 +104,27 @@ class UrlMatchingGoalQuery(object):
                 match_field, match_value, goal_field, goal_value, self.from_time, self.end_time)
 
         # Query Elasticsearch
-        result_query = self.es.search(
-            index=index,
-            scroll=self.scroll_time,
-            size=self.scroll_size,
-            body=body
-        )
+        result_query = self.es_helper.get_results_execute_es(self.es,index,self.scroll_time,self.scroll_size,body)
+
 
         return result_query
 
     def enter_query(self):
 
-        for element_data in self.goal_table_data:
+        for goal_data in self.goal_table_data:
 
             # get needed field, value  for query
-            match_field = str(f"event.{str(element_data.match_attribute)}")
-            match_value = str(element_data.match_pattern)
-            goal_field = str(f"event.{str(element_data.goal_attribute)}")
-            goal_value = str(element_data.goal_pattern)
-            stored_index = "<test-goal-%s-{now/d}>"%(element_data.app_id.lower())
+            match_field = str(f"event.{str(goal_data.match_attribute)}")
+            match_value = str(goal_data.match_pattern)
+            goal_field = str(f"event.{str(goal_data.goal_attribute)}")
+            goal_value = str(goal_data.goal_pattern)
+            stored_index = "<test-goal-%s-{now/d}>"%(goal_data.app_id.lower())
 
             # get result of scroll by search
             data = self.get_hits_from_site_query(
-                self.index_site_tracking, element_data.match_pattern_type, match_field, match_value, goal_field, goal_value)
+                self.index_site_tracking, goal_data.match_pattern_type, match_field, match_value, goal_field, goal_value)
 
 
             # process scroll query
-            self.es_helper.process_sroll_query(self.es,element_data,data,self.from_time, self.end_time)
+            self.es_helper.process_sroll_query(self.es,goal_data,data,self.from_time, self.end_time)
 

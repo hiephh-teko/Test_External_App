@@ -56,7 +56,7 @@ class TestQueryEventMatching(Jira):
     #     for data in get_test_data_time:
     #         from_time = data[0]
     #         end_time = data[1]
-    #         element_data = self.mock_table.get_regex_url_matching()
+    #         goal_data = self.mock_table.get_regex_url_matching()
     #         url_matching_goal_query = UrlMatchingGoalQuery(None,from_time,end_time)
 
     #         if self.es.indices.exists(index=self.index_write_doc):
@@ -64,11 +64,11 @@ class TestQueryEventMatching(Jira):
     #             self.es.indices.delete(index=self.index_write_doc)
 
     #         data = url_matching_goal_query.get_hits_from_site_query(
-    #                 self.index_site_tracking, element_data.match_pattern_type, 
-    #                     element_data.match_attribute, element_data.match_pattern, 
-    #                     element_data.goal_attribute, element_data.goal_pattern)
+    #                 self.index_site_tracking, goal_data.match_pattern_type, 
+    #                     goal_data.match_attribute, goal_data.match_pattern, 
+    #                     goal_data.goal_attribute, goal_data.goal_pattern)
 
-    #         url_matching_goal_query.process_hits(self.index_write_doc,data,element_data)
+    #         url_matching_goal_query.process_hits(self.index_write_doc,data,goal_data)
             
             
 
@@ -83,7 +83,7 @@ class TestQueryEventMatching(Jira):
         #     from_time = data[0]
         #     end_time = data[1]
         #     expected_reusult = data[2]
-        # element_data = self.mock_table.get_regex_url_matching()
+        # goal_data = self.mock_table.get_regex_url_matching()
         # url_matching_goal_query = UrlMatchingGoalQuery(None,from_time,end_time)
 
         # if self.es.indices.exists(index=self.index_write_doc):
@@ -91,11 +91,11 @@ class TestQueryEventMatching(Jira):
         #     self.es.indices.delete(index=self.index_write_doc)
 
         # data = url_matching_goal_query.get_hits_from_site_query(
-        #     self.index_site_tracking, element_data.match_pattern_type, 
-        #     element_data.match_attribute, element_data.match_pattern, 
-        #     element_data.goal_attribute, element_data.goal_pattern)
+        #     self.index_site_tracking, goal_data.match_pattern_type, 
+        #     goal_data.match_attribute, goal_data.match_pattern, 
+        #     goal_data.goal_attribute, goal_data.goal_pattern)
 
-        # url_matching_goal_query.process_hits(self.index_write_doc,data,element_data)
+        # url_matching_goal_query.process_hits(self.index_write_doc,data,goal_data)
 
         # yield
             

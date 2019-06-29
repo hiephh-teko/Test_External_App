@@ -3,7 +3,7 @@ import pytest
 from tests.jira import Jira
 from external.query.custom_matching_query import CustomMatchingQuery
 
-class TestQueryCustomMatching(object):
+class TestQueryCustomMatching(Jira):
     ISSUE_KEY = 'TAP-76'
 
 
