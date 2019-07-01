@@ -14,9 +14,9 @@ class CustomMatchingQuery(object):
         self.goal_table_data = goal_table_data
         self.from_time = from_time
         self.end_time = end_time
-        self.es_helper = ESHelper()
+        self.es_helper = ESHelper(self.scroll_time, self.scroll_size)
         self.es = self.es_helper.get_es_config()
-
+        
 
     def get_query_body(self, field, value, from_time, end_time):
         body = {
@@ -47,13 +47,13 @@ class CustomMatchingQuery(object):
         body = self.get_query_body(field, value, self.from_time, self.end_time)
 
         # Query Elasticsearch
-        result_query = self.es_helper.get_results_execute_es(self.es,index,self.scroll_time,self.scroll_size,body)
-
+        result_query = self.es_helper.get_results_execute_es(self.es,index,body)
 
         return result_query
 
     def enter_query(self):
 
+        #get each goal for specific query
         for goal_data in self.goal_table_data:
             # get needed field, value  for query
             field = str(f"event.{str(goal_data.match_attribute)}")

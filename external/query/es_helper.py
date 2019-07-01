@@ -5,8 +5,9 @@ from dotenv import load_dotenv
 
 class ESHelper(object):
 
-    scroll_time = os.getenv('ELASTICSEARCH_SCROLL_TIME')
-
+    def __init__(self, scroll_time, scroll_size):
+        self.scroll_size = scroll_size
+        self.scroll_time = scroll_time
 
     def get_es_config(self):
         return Elasticsearch([{'host': os.getenv('ELASTICSEARCH_HOST'),
@@ -47,11 +48,11 @@ class ESHelper(object):
                 }
             }    
 
-    def get_results_execute_es(self, es, index, scroll_time, scroll_size, body):
+    def get_results_execute_es(self, es, index,  body):
         result_query = es.search(
             index=index,
-            scroll=scroll_time,
-            size=scroll_size,
+            scroll=self.scroll_time,
+            size=self.scroll_size,
             body=body
         )
         return result_query
