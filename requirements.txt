@@ -6,3 +6,4 @@ elasticsearch==7.0.2
 requests==2.22.0  
 pytest==3.6.2
 pytz==2019.1
+elasticsearch-dsl>=7.0.0,<8.0.0

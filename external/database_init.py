@@ -24,3 +24,7 @@ class DatabaseInit(object):
     def get_data_url_matching(self):
         result = self.session.query(Goal).filter(Goal.goal_type == 'url_matching')
         return result
+
+    def get_data_custom_matching(self):
+        result = self.session.query(Goal).filter(Goal.goal_type == 'custom_matching')
+        return result

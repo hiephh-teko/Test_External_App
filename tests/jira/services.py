@@ -28,7 +28,7 @@ class JiraService:
         response = requests.get(url=self.base_url + '/testcase/search',
                                 params=params,
                                 auth=self.auth_string).json()
-        return list(map(itemgetter('key'), response))
+        return list(map(itemgetter('name', 'key'), response))
 
     def create_test(self, test_name, issue_key):
         json = {
