@@ -124,7 +124,6 @@ class UrlMatchingGoalQuery(object):
             data = self.get_hits_from_site_query(
                 self.index_site_tracking, goal_data.match_pattern_type, match_field, match_value, goal_field, goal_value)
 
-
             # process scroll query
             self.es_helper.process_sroll_query(self.es,goal_data,data,self.from_time, self.end_time)
 

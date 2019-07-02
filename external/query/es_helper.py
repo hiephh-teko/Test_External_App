@@ -5,13 +5,42 @@ from dotenv import load_dotenv
 
 class ESHelper(object):
 
-    def __init__(self, scroll_time, scroll_size):
+    def __init__(self, scroll_time = '0m', scroll_size = 10000):
         self.scroll_size = scroll_size
         self.scroll_time = scroll_time
 
     def get_es_config(self):
         return Elasticsearch([{'host': os.getenv('ELASTICSEARCH_HOST'),
                          'port': os.getenv('ELASTICSEARCH_PORT')}])
+
+    
+    def get_number_of_session(self, es, index, from_time, end_time):
+        body = {
+            "size": 0,
+            "query": {
+                "bool": {
+                    "filter": {
+                        "range": {
+                            "clientTime": {
+                                "gte": from_time,
+                                "lt": end_time
+                            }
+                        }
+                    }
+                }
+            },
+            "aggs": {
+                "number_of_session":{
+                    "cardinality": {
+                        "field": "session.id"
+                    }
+                }
+            }         
+        }
+
+        result_query = es.search(index=index,body=body)
+
+        return result_query.get('aggregations').get('number_of_session').get('value')
 
     def get_matching_goal_log_index_body(self, hit, goal_data, from_time, end_time):
         return {
@@ -73,6 +102,7 @@ class ESHelper(object):
         # Get the scroll ID
         sid = data.get('_scroll_id')
         scroll_size = len(data.get('hits').get('hits'))
+        print("sid, scroll_size: ", sid, scroll_size)
 
         # Before scroll next, process current batch of hits
         self.process_scroll_hits(es, data, goal_data, from_time, end_time)
