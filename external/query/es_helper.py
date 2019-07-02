@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 class ESHelper(object):
 
-    def __init__(self, scroll_time, scroll_size):
+    def __init__(self, scroll_time = '0m', scroll_size = 10000):
         self.scroll_size = scroll_size
         self.scroll_time = scroll_time
 
