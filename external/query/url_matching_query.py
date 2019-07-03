@@ -109,6 +109,7 @@ class UrlMatchingGoalQuery(object):
         return result_query
 
     def enter_query(self):
+        print("start UrlMatchingGoalQuery")
 
         #get each goal for specific query
         for goal_data in self.goal_table_data:
