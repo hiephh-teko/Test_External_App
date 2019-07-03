@@ -79,6 +79,7 @@ class EventMatchingGoalQuery(object):
         elif str(match_pattern_type) == "regex":
             body = self.get_query_regex_type_body(
                 field, value, self.from_time, self.end_time)
+            
 
         # Query Elasticsearch
         result_query = self.es_helper.get_results_execute_es(self.es,index,body)
@@ -86,6 +87,7 @@ class EventMatchingGoalQuery(object):
         return result_query
 
     def enter_query(self):
+        print("start EventMatchingGoalQuery")
 
         #get each goal for specific query
         for goal_data in self.goal_table_data:
