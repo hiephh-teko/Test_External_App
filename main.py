@@ -16,8 +16,11 @@ load_dotenv(_DOT_ENV_PATH)
 def query():
     print("run")
     hours_query = os.getenv('ELASTICSEARCH_HOURS_QUERY')
-    from_time = (datetime.now() - timedelta(minutes = int(hours_query))).strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3]
-    end_time = (datetime.now()).strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] 
+    # from_time = (datetime.now() - timedelta(minutes = int(hours_query))).strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3]
+    # end_time = (datetime.now()).strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] 
+
+    from_time = "2019-06-25T13:18:22.000"
+    end_time = "2019-06-25T23:59:59.000"
 
     # event_matching_data = DatabaseInit().get_data_event_matching()  
     # EventMatchingGoalQuery(event_matching_data,from_time,end_time).enter_query()
@@ -28,7 +31,7 @@ def query():
     # custom_matching_data = DatabaseInit().get_data_custom_matching()
     # CustomMatchingQuery(custom_matching_data,from_time, end_time).enter_query()
 
-    PercolatorQuery().enter()
+    PercolatorQuery(from_time, end_time).enter()
 
 
 query()
