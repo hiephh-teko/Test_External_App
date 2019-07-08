@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 class ESHelper(object):
 
-    def __init__(self, scroll_time = '0m', scroll_size = 10000):
+    def __init__(self, scroll_time = '2m', scroll_size = 10000):
         self.scroll_size = scroll_size
         self.scroll_time = scroll_time
 
@@ -34,19 +34,7 @@ class ESHelper(object):
                 "start_time": from_time,
                 "end_time": end_time
             }
-        }
-
-    def get_index_body_query_filter_range_time(self, from_time, end_time):
-        return{
-                "query": {
-                    "range": {
-                        "event_log._source.clientTime": {
-                            "gte": from_time,
-                            "lt": end_time
-                        }
-                    }
-                }
-            }    
+        } 
 
     def get_results_execute_es(self, es, index,  body):
         result_query = es.search(
@@ -72,6 +60,7 @@ class ESHelper(object):
     def process_sroll_query(self, es, goal_data, data, from_time, end_time):
         # Get the scroll ID
         sid = data.get('_scroll_id')
+        
         scroll_size = len(data.get('hits').get('hits'))
 
         # Before scroll next, process current batch of hits
@@ -83,8 +72,12 @@ class ESHelper(object):
             # process current batch of hits
             self.process_scroll_hits(es, data, goal_data, from_time, end_time)
 
+            # clear scroll id
+            es.clear_scroll(scroll_id=sid)
+
             # update the scroll id
             sid = data.get('_scroll_id')
 
             # update scroll_size
             scroll_size = len(data.get('hits').get('hits'))
+

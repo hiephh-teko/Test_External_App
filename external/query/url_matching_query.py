@@ -109,15 +109,16 @@ class UrlMatchingGoalQuery(object):
         return result_query
 
     def enter_query(self):
-        print("start UrlMatchingGoalQuery")
 
         #get each goal for specific query
         for goal_data in self.goal_table_data:
 
             # get needed field, value  for query
-            match_field = str(f"event.{str(goal_data.match_attribute)}")
+            match_field = "event.%s"%(str(goal_data.match_attribute))
+            # match_field = str(event.{str(goal_data.match_attribute)}")
             match_value = str(goal_data.match_pattern)
-            goal_field = str(f"event.{str(goal_data.goal_attribute)}")
+            # goal_field = str(f"event.{str(goal_data.goal_attribute)}")
+            goal_field = "event.%s"%(str(goal_data.goal_attribute))
             goal_value = str(goal_data.goal_pattern)
             stored_index = "<test-goal-%s-{now/d}>"%(goal_data.app_id.lower())
 

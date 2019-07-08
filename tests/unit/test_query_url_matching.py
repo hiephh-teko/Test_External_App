@@ -3,7 +3,6 @@ import pytest
 import os
 from tests.jira import Jira
 from external.query.url_matching_query import UrlMatchingGoalQuery
-from tests.data.input.mock_test_sql_table import SqlMockTable
 from external.query.es_helper import ESHelper
 
 

@@ -3,9 +3,13 @@ FROM vietanhs0817/python:3.6
 WORKDIR /sample
 ADD requirements.txt /sample/
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
 ADD . /sample/
+
+RUN chmod a+x set_env.sh
+
+RUN apt-get update && apt-get -y install cron
 
 ADD ./bash/crontab /etc/cron.d/scan
 
@@ -19,4 +23,4 @@ RUN find /sample/bash -type d -exec chmod 755 {} \;
 
 RUN touch /var/log/cron.log
 
-CMD crond -f
+CMD cron -f
