@@ -79,7 +79,6 @@ class EventMatchingGoalQuery(object):
         elif str(match_pattern_type) == "regex":
             body = self.get_query_regex_type_body(
                 field, value, self.from_time, self.end_time)
-            
 
         # Query Elasticsearch
         result_query = self.es_helper.get_results_execute_es(self.es,index,body)

@@ -36,8 +36,20 @@ class TestQueryEventMatching(Jira):
                                 ('event.eventName','focusForm','2019-06-25T13:18:22.000','2019-06-25T23:59:59.000')
                             ])
     def test_query_contains_url_matching_correctly_tracking_site(self,field, value, from_time,end_time):
-        expected_reusult = ESDataResultMatchingGoal("tracking-chat-tool-v2-*", from_time, end_time, field,value).get_len_matching_data()
+        expected_reusult = ESDataResultMatchingGoal("tracking-chat-tool-v2-*", from_time, end_time, field,value).get_len_contains_matching_data()
 
         result = len(EventMatchingGoalQuery(None,from_time,end_time).get_hits_from_site_query("tracking-chat-tool-v2-*","contains",'eventName',value).get('hits').get('hits'))
+
+        assert result == expected_reusult
+
+    
+    @pytest.mark.parametrize('field, value, from_time, end_time',
+                            [
+                                ('event.inputValue','.*Hiện tại bạn ở đâu.*','2019-05-31T03:22:22.000','2019-05-31T04:43:59.000')
+                            ])
+    def test_query_regex_url_matching_correctly_tracking_site(self,field, value, from_time , end_time):
+        expected_reusult = ESDataResultMatchingGoal("tracking-chat-tool-v2-*", from_time, end_time, field,value).get_len_regex_matching_data()
+
+        result = len(EventMatchingGoalQuery(None,from_time,end_time).get_hits_from_site_query("tracking-chat-tool-v2-*","regex",'inputValue',value).get('hits').get('hits'))
 
         assert result == expected_reusult

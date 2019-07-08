@@ -16,3 +16,6 @@ class TestQueryCustomMatching(Jira):
         result = len(CustomMatchingQuery(None,from_time,end_time).get_hits_from_site_query("mock-test-goal",field, value).get('hits').get('hits'))
 
         assert result == expected_reusult
+
+
+    

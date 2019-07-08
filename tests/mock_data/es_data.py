@@ -1,4 +1,5 @@
 from external.query.es_helper import ESHelper
+import re
 
 class ESData(object):
     
@@ -39,21 +40,53 @@ class ESDataResultMatchingGoal(object):
         self.goal_field = goal_field
         self.goal_value = goal_value
 
-    def get_len_matching_data(self):
+    def check_contains_matching(self, event, field, value):
+        field_data = event.get(field,"")
+        if field_data is value:
+            return True
+        else:
+            return False
+    
+    def check_regex_matching(self, event, field, value):
+        field_data = event.get(field,"")
+        res_matching = re.search(value,field_data)
+        if (res_matching):
+            print(field_data,value)
+
+            return True
+        else:
+            return False
+
+    def get_len_contains_matching_data(self):
         count = 0
         for hit in self.hits:
             event = hit.get("_source").get("event")
-            match_field_data = event.get(self.match_field,"")
-            if match_field_data is self.match_value:
+            if self.check_contains_matching(event,self.match_field,self.match_value):
                 if self.goal_field is "":
                     count+=1
                 else:
-                    goal_field_data = hit.get(self.goal_field,"")
-                    if goal_field_data is self.goal_value:
+                    if self.check_contains_matching(event,self.goal_field,self.goal_value):
                         count+=1
         
         return count
                 
+    def get_len_regex_matching_data(self):
+        count = 0
+        for hit in self.hits:
+            event = hit.get("_source").get("event")
+            # match_field_data = event.get(self.match_field,"")
+            # res_matching = re.search(self.match_value,match_field_data)
+
+            if (self.check_regex_matching(event,self.match_field,self.match_value)):
+                if self.goal_field is "":
+                    count+=1
+                else:
+                    if (self.check_regex_matching(event,self.goal_field,self.goal_value)):
+                        count+=1
+        
+        return count
+
+
 
 
 
