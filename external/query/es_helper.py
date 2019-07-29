@@ -66,7 +66,7 @@ class ESHelper(object):
     def process_sroll_query(self, es, goal_data, data, from_time, end_time):
         # Get the scroll ID
         sid = data.get('_scroll_id')
-        
+
         scroll_size = len(data.get('hits').get('hits'))
 
         # Before scroll next, process current batch of hits
@@ -75,17 +75,15 @@ class ESHelper(object):
         while (scroll_size > 0):
             print("start scroll: ")
             data = es.scroll(scroll_id=sid, scroll=self.scroll_time)
-            print("end scroll: ", data)
+
             # process current batch of hits
             self.process_scroll_hits(es, data, goal_data, from_time, end_time)
 
             # clear scroll id
             clear_es = es.clear_scroll(scroll_id=sid)
-            print("clear :", clear_es)
 
             # update the scroll id
             sid = data.get('_scroll_id')
-            print("sid: ", sid)
 
             # update scroll_size
             scroll_size = len(data.get('hits').get('hits'))
