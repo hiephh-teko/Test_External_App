@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cd /sample && python main.py
+cd /sample && /usr/local/bin/python main.py

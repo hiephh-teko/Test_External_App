@@ -3,7 +3,6 @@ import pytest
 import os
 from tests.jira import Jira
 from external.query.url_matching_query import UrlMatchingGoalQuery
-from tests.data.input.mock_test_sql_table import SqlMockTable
 from external.query.es_helper import ESHelper
 
 
@@ -59,7 +58,7 @@ class TestQueryEventMatching(Jira):
     #         self.es.indices.delete(index=self.index_write_doc)
 
     #     data = url_matching_goal_query.get_hits_from_site_query(
-    #         self.index_site_tracking, goal_data.match_pattern_type, 
+    #         self.index_site_tracking, goal_data.pattern_type, 
     #         goal_data.match_attribute, goal_data.match_pattern, 
     #         goal_data.goal_attribute, goal_data.goal_pattern)
 
