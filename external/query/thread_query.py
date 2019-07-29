@@ -26,24 +26,29 @@ class ThreadQuery(object):
         end_time = (datetime.now()).strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] 
         # from_time = "2019-06-25T13:18:22.000"
         # end_time = "2019-06-25T23:59:59.000"
+        # from_time = "2019-05-31T01:22:22.000"
+        # end_time = "2019-05-31T06:38:04.000"
         print("run from %s to %s"%(from_time,end_time))
 
-        event_matching_data = DatabaseInit().get_data_event_matching()  
-        event_matching_thread = threading.Thread(target=EventMatchingGoalQuery(event_matching_data,from_time,end_time).enter_query,name="event_matching_thread")
+        
+        # event_matching_data = DatabaseInit().get_data_event_matching()  
+        # event_matching_thread = threading.Thread(target=EventMatchingGoalQuery(event_matching_data,from_time,end_time).enter_query,name="event_matching_thread")
 
         url_matching_data = DatabaseInit().get_data_url_matching()
         url_matching_thread = threading.Thread(target=UrlMatchingGoalQuery(url_matching_data,from_time,end_time).enter_query,name="url_matching_thread")
 
-        custom_matching_data = DatabaseInit().get_data_custom_matching()
-        custom_matching_thread = threading.Thread(target=CustomMatchingQuery(custom_matching_data,from_time, end_time).enter_query,name="custom_matching_thread")
+        # custom_matching_data = DatabaseInit().get_data_custom_matching()
+        # custom_matching_thread = threading.Thread(target=CustomMatchingQuery(custom_matching_data,from_time, end_time).enter_query,name="custom_matching_thread")
+        
+        print("start: ", datetime.now())
 
-        custom_matching_thread.start()
-        event_matching_thread.start()
+        # custom_matching_thread.start()
+        # event_matching_thread.start()
         url_matching_thread.start()
  
-        event_matching_thread.join()
+        # event_matching_thread.join()
         url_matching_thread.join()
-        custom_matching_thread.join()
+        # custom_matching_thread.join()
 
-        print("exiting")
+        print("exiting", datetime.now())
         # PercolatorQuery(from_time, end_time).enter()

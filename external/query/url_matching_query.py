@@ -21,26 +21,17 @@ class UrlMatchingGoalQuery(object):
         self.es = self.es_helper.get_es_config()
 
 
-    def get_query_contain_type_body(self, match_field, match_value, goal_field, goal_value, from_time, end_time):
+    def get_query_contain_type_body(self, match_field, match_value, from_time, end_time):
         body = {
             "query": {
                 "bool": {
-                    "must": [
-                        {
-                            "term": {
-                                goal_field: {
-                                    "value": goal_value
-                                }
-                            }
-                        },
-                        {
-                            "term": {
-                                match_field: {
-                                    "value": match_value
-                                }
+                    "must": {
+                        "regexp": {
+                            match_field: {
+                                "value": match_value
                             }
                         }
-                    ],
+                    },
                     "filter": {
                         "range": {
                             "clientTime": {
@@ -54,54 +45,42 @@ class UrlMatchingGoalQuery(object):
         }
         return body
 
-    def get_query_regex_type_body(self, match_field, match_value, goal_field, goal_value, from_time, end_time):
-        body = {
-            "query": {
-                "bool": {
-                    "must": [
-                        {           
-                            "term": {
-                                match_field: {
-                                    "value": match_value
-                                }
-                            }
-                        },
-                        {
-                            "regexp": {
-                                goal_field: {
-                                    "value": goal_value
-                                }
-                            }
-                        }
-                    ],
-                    "filter": {
-                        "range": {
-                            "clientTime": {
-                                "gte": from_time,
-                                "lt": end_time
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        return body
+    # def get_query_regex_type_body(self, match_field, match_value, from_time, end_time):
+    #     body = {
+    #         "query": {
+    #             "bool": {
+    #                 "must": {
+    #                     "regexp": {
+    #                         match_field: {
+    #                             "value": match_value
+    #                         }
+    #                     }
+    #                 },
+    #                 "filter": {
+    #                     "range": {
+    #                         "clientTime": {
+    #                             "gte": from_time,
+    #                             "lt": end_time
+    #                         }
+    #                     }
+    #                 }
+    #             }
+    #         }
+    #     }
+    #     return body
 
-    def get_hits_from_site_query(self, index, match_pattern_type, match_field, match_value, goal_field, goal_value):
-        res = {
-            '_scroll_id': None, 
-            'hits': {
-                'hits': []
-            }
-        }
-        if str(match_pattern_type) == "contains":
-            body = self.get_query_contain_type_body(
-                match_field, match_value, goal_field, goal_value, self.from_time, self.end_time)
-          
+    def get_hits_from_site_query(self, index, pattern_type, match_field, match_value):
+      
+        
+        if str(pattern_type) == "contains":
+            match_value = ".*%s.*"%(match_value)
+        
+        body = self.get_query_contain_type_body(
+                match_field, match_value, self.from_time, self.end_time)
 
-        elif str(match_pattern_type) == "regex":
-            body = self.get_query_regex_type_body(
-                match_field, match_value, goal_field, goal_value, self.from_time, self.end_time)
+        # elif str(pattern_type) == "regex":
+        #     body = self.get_query_regex_type_body(
+        #         match_field, match_value, self.from_time, self.end_time)
 
         # Query Elasticsearch
         result_query = self.es_helper.get_results_execute_es(self.es,index,body)
@@ -114,17 +93,14 @@ class UrlMatchingGoalQuery(object):
         for goal_data in self.goal_table_data:
 
             # get needed field, value  for query
-            match_field = "event.%s"%(str(goal_data.match_attribute))
-            # match_field = str(event.{str(goal_data.match_attribute)}")
-            match_value = str(goal_data.match_pattern)
+            match_field = "event.href"
+          
+            match_value = str(goal_data.goal_pattern)
             # goal_field = str(f"event.{str(goal_data.goal_attribute)}")
-            goal_field = "event.%s"%(str(goal_data.goal_attribute))
-            goal_value = str(goal_data.goal_pattern)
-            stored_index = "<test-goal-%s-{now/d}>"%(goal_data.app_id.lower())
-
+       
             # get result of scroll by search
             data = self.get_hits_from_site_query(
-                self.index_site_tracking, goal_data.match_pattern_type, match_field, match_value, goal_field, goal_value)
+                self.index_site_tracking, goal_data.pattern_type, match_field, match_value)
 
 
             # process scroll query

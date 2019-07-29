@@ -74,8 +74,7 @@ class ESDataResultMatchingGoal(object):
         count = 0
         for hit in self.hits:
             event = hit.get("_source").get("event")
-            # match_field_data = event.get(self.match_field,"")
-            # res_matching = re.search(self.match_value,match_field_data)
+
 
             if (self.check_regex_matching(event,self.match_field,self.match_value)):
                 if self.goal_field is "":

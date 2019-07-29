@@ -58,7 +58,7 @@ class TestQueryEventMatching(Jira):
     #         self.es.indices.delete(index=self.index_write_doc)
 
     #     data = url_matching_goal_query.get_hits_from_site_query(
-    #         self.index_site_tracking, goal_data.match_pattern_type, 
+    #         self.index_site_tracking, goal_data.pattern_type, 
     #         goal_data.match_attribute, goal_data.match_pattern, 
     #         goal_data.goal_attribute, goal_data.goal_pattern)
 
